@@ -1,0 +1,2369 @@
+{
+	"autoplayBgm": false,
+	"autoplayBgs": false,
+	"battleback1Name": "",
+	"battleback2Name": "",
+	"bgm": {
+		"name": "",
+		"pan": 0,
+		"pitch": 100,
+		"volume": 90
+	},
+	"bgs": {
+		"name": "",
+		"pan": 0,
+		"pitch": 100,
+		"volume": 90
+	},
+	"disableDashing": false,
+	"displayName": "The Trunk",
+	"encounterList": [],
+	"encounterStep": 30,
+	"height": 11,
+	"note": "",
+	"parallaxLoopX": false,
+	"parallaxLoopY": false,
+	"parallaxName": "",
+	"parallaxShow": true,
+	"parallaxSx": 0,
+	"parallaxSy": 0,
+	"scrollType": 0,
+	"specifyBattleback": false,
+	"tilesetId": 1,
+	"width": 13,
+	"data": [
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		42,
+		42,
+		42,
+		42,
+		42,
+		42,
+		42,
+		42,
+		42,
+		42,
+		42,
+		41,
+		41,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		41,
+		41,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		41,
+		41,
+		40,
+		40,
+		40,
+		40,
+		42,
+		40,
+		42,
+		40,
+		40,
+		40,
+		40,
+		41,
+		41,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		41,
+		41,
+		40,
+		40,
+		18,
+		40,
+		40,
+		40,
+		40,
+		40,
+		18,
+		40,
+		40,
+		41,
+		41,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		41,
+		41,
+		40,
+		41,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		41,
+		40,
+		41,
+		41,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		40,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		41,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"events": [
+		null,
+		{
+			"id": 1,
+			"name": "OnEnter",
+			"note": "runs once on entry",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 111,
+							"indent": 0,
+							"parameters": [
+								0,
+								38,
+								0
+							]
+						},
+						{
+							"code": 411,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 121,
+							"indent": 1,
+							"parameters": [
+								38,
+								38,
+								0
+							]
+						},
+						{
+							"code": 225,
+							"indent": 1,
+							"parameters": [
+								5,
+								5,
+								40,
+								true
+							]
+						},
+						{
+							"code": 250,
+							"indent": 1,
+							"parameters": [
+								{
+									"name": "Earth1",
+									"volume": 80,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
+							"code": 101,
+							"indent": 1,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 1,
+							"parameters": [
+								"Inside the trunk the walls are wood and the light is coming from the wood. There is a sound in here like a room full of people being very quiet."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 1,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 1,
+							"parameters": [
+								"The Axis. Not a thing you can point at — a place where everything is holding still and it is costing something."
+							]
+						},
+						{
+							"code": 412,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 3,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 38,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 0,
+			"y": 0
+		},
+		{
+			"id": 2,
+			"name": "down",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 201,
+							"indent": 0,
+							"parameters": [
+								0,
+								13,
+								7,
+								11,
+								8,
+								0
+							]
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 1,
+					"walkAnime": true
+				}
+			],
+			"x": 6,
+			"y": 10
+		},
+		{
+			"id": 3,
+			"name": "axisheart",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"The living wood has opened a place the size of a doorway, and the place is not empty. It is holding something still."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"This is where the supports run to. Three roads, all of them ending here, all of them carrying the same small weight."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"You came. Show me your hands."
+							]
+						},
+						{
+							"code": 102,
+							"indent": 0,
+							"parameters": [
+								[
+									"Use the three tokens. Stabilize it.",
+									"Open a clean path.",
+									"Not yet. I’m not ready."
+								],
+								0,
+								0,
+								2,
+								0
+							]
+						},
+						{
+							"code": 402,
+							"indent": 0,
+							"parameters": [
+								0,
+								"Use the three tokens. Stabilize it."
+							]
+						},
+						{
+							"code": 111,
+							"indent": 1,
+							"parameters": [
+								8,
+								1,
+								0
+							]
+						},
+						{
+							"code": 111,
+							"indent": 2,
+							"parameters": [
+								8,
+								2,
+								0
+							]
+						},
+						{
+							"code": 111,
+							"indent": 3,
+							"parameters": [
+								8,
+								3,
+								0
+							]
+						},
+						{
+							"code": 126,
+							"indent": 4,
+							"parameters": [
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						{
+							"code": 126,
+							"indent": 4,
+							"parameters": [
+								2,
+								1,
+								0,
+								1
+							]
+						},
+						{
+							"code": 126,
+							"indent": 4,
+							"parameters": [
+								3,
+								1,
+								0,
+								1
+							]
+						},
+						{
+							"code": 101,
+							"indent": 4,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 4,
+							"parameters": [
+								"North. East. West. Set them down where each road ends and say nothing clever while you do it."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 4,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 4,
+							"parameters": [
+								"Three tokens. A short rite — a stone in each notch, a hand flat on the wood, one held breath."
+							]
+						},
+						{
+							"code": 121,
+							"indent": 4,
+							"parameters": [
+								39,
+								39,
+								0
+							]
+						},
+						{
+							"code": 121,
+							"indent": 4,
+							"parameters": [
+								40,
+								40,
+								0
+							]
+						},
+						{
+							"code": 225,
+							"indent": 4,
+							"parameters": [
+								8,
+								5,
+								40,
+								true
+							]
+						},
+						{
+							"code": 250,
+							"indent": 4,
+							"parameters": [
+								{
+									"name": "Earth1",
+									"volume": 80,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
+							"code": 101,
+							"indent": 4,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 4,
+							"parameters": [
+								"The trembling eases. Not all at once — the way a held muscle eases, in stages, and complains."
+							]
+						},
+						{
+							"code": 231,
+							"indent": 4,
+							"parameters": [
+								13,
+								"axis_ending_stabilize",
+								1,
+								0,
+								0,
+								0,
+								100,
+								100,
+								255,
+								0
+							]
+						},
+						{
+							"code": 101,
+							"indent": 4,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 4,
+							"parameters": [
+								"The supports take the weight back."
+							]
+						},
+						{
+							"code": 235,
+							"indent": 4,
+							"parameters": [
+								13
+							]
+						},
+						{
+							"code": 101,
+							"indent": 4,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 4,
+							"parameters": [
+								"The supports take the weight back. Above you, in the world, ridges settle along their length and trees that were leaning find they no longer have to."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 4,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 4,
+							"parameters": [
+								"You walk out into an ordinary evening. The well water is clear by morning. Nobody in Ashhollow will ever know what it cost, and that is the shape of the thing you chose."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 4,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 4,
+							"parameters": [
+								"Far out past the ridge, in ground nobody farms, a seam stays open a finger’s width. Waiting to be asked again."
+							]
+						},
+						{
+							"code": 221,
+							"indent": 4,
+							"parameters": []
+						},
+						{
+							"code": 230,
+							"indent": 4,
+							"parameters": [
+								60
+							]
+						},
+						{
+							"code": 250,
+							"indent": 4,
+							"parameters": [
+								{
+									"name": "Bell3",
+									"volume": 70,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
+							"code": 354,
+							"indent": 4,
+							"parameters": []
+						},
+						{
+							"code": 411,
+							"indent": 3,
+							"parameters": []
+						},
+						{
+							"code": 101,
+							"indent": 4,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 4,
+							"parameters": [
+								"West is not here. The circle is still facing the wrong way."
+							]
+						},
+						{
+							"code": 412,
+							"indent": 3,
+							"parameters": []
+						},
+						{
+							"code": 411,
+							"indent": 2,
+							"parameters": []
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"East is not here. The water is still standing."
+							]
+						},
+						{
+							"code": 412,
+							"indent": 2,
+							"parameters": []
+						},
+						{
+							"code": 411,
+							"indent": 1,
+							"parameters": []
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"North is not here. The cairn is still cracked."
+							]
+						},
+						{
+							"code": 412,
+							"indent": 1,
+							"parameters": []
+						},
+						{
+							"code": 402,
+							"indent": 0,
+							"parameters": [
+								1,
+								"Open a clean path."
+							]
+						},
+						{
+							"code": 111,
+							"indent": 1,
+							"parameters": [
+								0,
+								10,
+								0
+							]
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"You said you would. You said it in the hollow with the marks on the wall in front of you, and you have not once pretended you didn’t."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"You put your hand flat on the living wood and do not take it away when it gets warm."
+							]
+						},
+						{
+							"code": 121,
+							"indent": 2,
+							"parameters": [
+								39,
+								39,
+								0
+							]
+						},
+						{
+							"code": 121,
+							"indent": 2,
+							"parameters": [
+								41,
+								41,
+								0
+							]
+						},
+						{
+							"code": 225,
+							"indent": 2,
+							"parameters": [
+								8,
+								5,
+								40,
+								true
+							]
+						},
+						{
+							"code": 250,
+							"indent": 2,
+							"parameters": [
+								{
+									"name": "Earth1",
+									"volume": 80,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"The trunk opens along the seam — not a tear. A door."
+							]
+						},
+						{
+							"code": 231,
+							"indent": 2,
+							"parameters": [
+								14,
+								"axis_ending_open",
+								1,
+								0,
+								0,
+								0,
+								100,
+								100,
+								255,
+								0
+							]
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"The trunk opens along the seam. Not a tear. A door."
+							]
+						},
+						{
+							"code": 235,
+							"indent": 2,
+							"parameters": [
+								14
+							]
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"Something small comes through and goes past you, unhurried, without looking up. It has been a long time since anything was allowed through."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"Behind it the hollow stays open, controlled, a finger’s width that you could put a hand into. The tremors stop because the pressure has somewhere to go now."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"In the spring, in the burnt circle and out past the marsh, things come up that nobody planted and nobody recognises. The keepers argue about it for years, fondly."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 2,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 2,
+							"parameters": [
+								"The ridge is still a ridge. It just holds its weight differently."
+							]
+						},
+						{
+							"code": 221,
+							"indent": 2,
+							"parameters": []
+						},
+						{
+							"code": 230,
+							"indent": 2,
+							"parameters": [
+								60
+							]
+						},
+						{
+							"code": 250,
+							"indent": 2,
+							"parameters": [
+								{
+									"name": "Bell3",
+									"volume": 70,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
+							"code": 354,
+							"indent": 2,
+							"parameters": []
+						},
+						{
+							"code": 411,
+							"indent": 1,
+							"parameters": []
+						},
+						{
+							"code": 111,
+							"indent": 2,
+							"parameters": [
+								1,
+								1,
+								0,
+								50,
+								1
+							]
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"You did not ask for this in the hollow. But you carried it here — you can hear it in the way you stand."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"I said you would have to be worth opening for. I did not say you would have to be careful."
+							]
+						},
+						{
+							"code": 121,
+							"indent": 3,
+							"parameters": [
+								39,
+								39,
+								0
+							]
+						},
+						{
+							"code": 121,
+							"indent": 3,
+							"parameters": [
+								41,
+								41,
+								0
+							]
+						},
+						{
+							"code": 225,
+							"indent": 3,
+							"parameters": [
+								8,
+								5,
+								40,
+								true
+							]
+						},
+						{
+							"code": 250,
+							"indent": 3,
+							"parameters": [
+								{
+									"name": "Earth1",
+									"volume": 80,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
+							"code": 231,
+							"indent": 3,
+							"parameters": [
+								14,
+								"axis_ending_open",
+								1,
+								0,
+								0,
+								0,
+								100,
+								100,
+								255,
+								0
+							]
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"The trunk opens along the seam. Not a tear. A door."
+							]
+						},
+						{
+							"code": 235,
+							"indent": 3,
+							"parameters": [
+								14
+							]
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"The trunk opens along the seam. Something small goes past you, unhurried, and does not look up."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"The tremors stop, because the pressure has somewhere to go. In spring, things come up out of the burnt ground that nobody planted."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"You did not choose this as carefully as you could have. It works anyway. That will bother you for the rest of your life."
+							]
+						},
+						{
+							"code": 221,
+							"indent": 3,
+							"parameters": []
+						},
+						{
+							"code": 230,
+							"indent": 3,
+							"parameters": [
+								60
+							]
+						},
+						{
+							"code": 250,
+							"indent": 3,
+							"parameters": [
+								{
+									"name": "Bell3",
+									"volume": 70,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
+							"code": 354,
+							"indent": 3,
+							"parameters": []
+						},
+						{
+							"code": 411,
+							"indent": 2,
+							"parameters": []
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"Not with those hands. Not yet."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 3,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 3,
+							"parameters": [
+								"The path opens toward whoever is worth passing through it. Go and be worth it, or go and stabilize what is left. Both are honest. Standing here is not."
+							]
+						},
+						{
+							"code": 412,
+							"indent": 2,
+							"parameters": []
+						},
+						{
+							"code": 412,
+							"indent": 1,
+							"parameters": []
+						},
+						{
+							"code": 402,
+							"indent": 0,
+							"parameters": [
+								2,
+								"Not yet. I’m not ready."
+							]
+						},
+						{
+							"code": 101,
+							"indent": 1,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Root-Tender"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 1,
+							"parameters": [
+								"Then go back down. The ridge will wait, badly."
+							]
+						},
+						{
+							"code": 121,
+							"indent": 1,
+							"parameters": [
+								42,
+								42,
+								0
+							]
+						},
+						{
+							"code": 404,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 39,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"It is done. The trunk is quiet."
+							]
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 6,
+			"y": 5
+		},
+		{
+			"id": 4,
+			"name": "notch",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"A notch worn in the living wood, exactly the size of a support token."
+							]
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 3,
+			"y": 6
+		}
+	]
+}

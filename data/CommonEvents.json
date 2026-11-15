@@ -1,0 +1,538 @@
+[
+	null,
+	{
+		"id": 1,
+		"list": [
+			{
+				"code": 225,
+				"indent": 0,
+				"parameters": [
+					5,
+					5,
+					45,
+					true
+				]
+			},
+			{
+				"code": 250,
+				"indent": 0,
+				"parameters": [
+					{
+						"name": "Earth1",
+						"volume": 85,
+						"pitch": 100,
+						"pan": 0
+					}
+				]
+			},
+			{
+				"code": 0,
+				"indent": 0,
+				"parameters": []
+			}
+		],
+		"name": "TremorEffect",
+		"switchId": 1,
+		"trigger": 0
+	},
+	{
+		"id": 2,
+		"list": [
+			{
+				"code": 231,
+				"indent": 0,
+				"parameters": [
+					20,
+					"axis_caretaker",
+					1,
+					0,
+					0,
+					0,
+					100,
+					100,
+					255,
+					0
+				]
+			},
+			{
+				"code": 101,
+				"indent": 0,
+				"parameters": [
+					"",
+					0,
+					0,
+					2,
+					""
+				]
+			},
+			{
+				"code": 401,
+				"indent": 0,
+				"parameters": [
+					"The Root-Tender"
+				]
+			},
+			{
+				"code": 235,
+				"indent": 0,
+				"parameters": [
+					20
+				]
+			},
+			{
+				"code": 0,
+				"indent": 0,
+				"parameters": []
+			}
+		],
+		"name": "ShowCaretakerMessage",
+		"switchId": 1,
+		"trigger": 0
+	},
+	{
+		"id": 3,
+		"list": [
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					8,
+					1,
+					0
+				]
+			},
+			{
+				"code": 111,
+				"indent": 1,
+				"parameters": [
+					8,
+					2,
+					0
+				]
+			},
+			{
+				"code": 111,
+				"indent": 2,
+				"parameters": [
+					8,
+					3,
+					0
+				]
+			},
+			{
+				"code": 121,
+				"indent": 3,
+				"parameters": [
+					35,
+					35,
+					0
+				]
+			},
+			{
+				"code": 355,
+				"indent": 3,
+				"parameters": [
+					"AxisExt.toast(\"All three supports are held.\");"
+				]
+			},
+			{
+				"code": 411,
+				"indent": 2,
+				"parameters": []
+			},
+			{
+				"code": 412,
+				"indent": 2,
+				"parameters": []
+			},
+			{
+				"code": 411,
+				"indent": 1,
+				"parameters": []
+			},
+			{
+				"code": 412,
+				"indent": 1,
+				"parameters": []
+			},
+			{
+				"code": 411,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 0,
+				"indent": 0,
+				"parameters": []
+			}
+		],
+		"name": "CheckTokens",
+		"switchId": 1,
+		"trigger": 0
+	},
+	{
+		"id": 4,
+		"list": [
+			{
+				"code": 122,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					1,
+					0,
+					-2
+				]
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					100,
+					3
+				]
+			},
+			{
+				"code": 122,
+				"indent": 1,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					100
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					4
+				]
+			},
+			{
+				"code": 122,
+				"indent": 1,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					50,
+					1
+				]
+			},
+			{
+				"code": 121,
+				"indent": 1,
+				"parameters": [
+					36,
+					36,
+					0
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 126,
+				"indent": 0,
+				"parameters": [
+					8,
+					1,
+					0,
+					1
+				]
+			},
+			{
+				"code": 355,
+				"indent": 0,
+				"parameters": [
+					"AxisExt.toast(\"Dried Herbs — Bitter, dry. Chewing them settles the stomach when the ground moves.\");"
+				]
+			},
+			{
+				"code": 0,
+				"indent": 0,
+				"parameters": []
+			}
+		],
+		"name": "useHerbs",
+		"switchId": 1,
+		"trigger": 0
+	},
+	{
+		"id": 5,
+		"list": [
+			{
+				"code": 122,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					1,
+					0,
+					-2
+				]
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					100,
+					3
+				]
+			},
+			{
+				"code": 122,
+				"indent": 1,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					100
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					4
+				]
+			},
+			{
+				"code": 122,
+				"indent": 1,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					50,
+					1
+				]
+			},
+			{
+				"code": 121,
+				"indent": 1,
+				"parameters": [
+					36,
+					36,
+					0
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 126,
+				"indent": 0,
+				"parameters": [
+					9,
+					1,
+					0,
+					1
+				]
+			},
+			{
+				"code": 355,
+				"indent": 0,
+				"parameters": [
+					"AxisExt.toast(\"Spring Water — Clear and cold, carried up from a seam that still runs honest.\");"
+				]
+			},
+			{
+				"code": 0,
+				"indent": 0,
+				"parameters": []
+			}
+		],
+		"name": "useWater",
+		"switchId": 1,
+		"trigger": 0
+	},
+	{
+		"id": 6,
+		"list": [
+			{
+				"code": 122,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					1,
+					0,
+					-1
+				]
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					100,
+					3
+				]
+			},
+			{
+				"code": 122,
+				"indent": 1,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					100
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					4
+				]
+			},
+			{
+				"code": 122,
+				"indent": 1,
+				"parameters": [
+					1,
+					1,
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 111,
+				"indent": 0,
+				"parameters": [
+					1,
+					1,
+					0,
+					50,
+					1
+				]
+			},
+			{
+				"code": 121,
+				"indent": 1,
+				"parameters": [
+					36,
+					36,
+					0
+				]
+			},
+			{
+				"code": 412,
+				"indent": 0,
+				"parameters": []
+			},
+			{
+				"code": 126,
+				"indent": 0,
+				"parameters": [
+					10,
+					1,
+					0,
+					1
+				]
+			},
+			{
+				"code": 355,
+				"indent": 0,
+				"parameters": [
+					"AxisExt.toast(\"Simple Salve — Tallow and root oil. It does nothing for the ridge, but your hands stop shaking.\");"
+				]
+			},
+			{
+				"code": 0,
+				"indent": 0,
+				"parameters": []
+			}
+		],
+		"name": "useSalve",
+		"switchId": 1,
+		"trigger": 0
+	}
+]

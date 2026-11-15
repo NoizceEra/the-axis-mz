@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>AXIS art export</title></head>
+<body style="background:#111;color:#ddd;font:12px monospace">
+<pre id="log">working…</pre>
+<script type="module">
+// Renders the web build's procedural art into RPG Maker MZ sheet formats and
+// exposes base64 PNGs on window.__art for the host to write to disk.
+import { tile, TILE_ART, charFrames, drawPicture, CHAR_SPECS, REGION_PAL } from './art.js';
+
+const SCALE = 3;                 // 16x16 art -> 48x48 MZ tiles
+const TS = 48;                   // MZ tile size
+const out = {};
+
+function canvas(w, h){
+  const c = document.createElement('canvas');
+  c.width = w; c.height = h;
+  const x = c.getContext('2d');
+  x.imageSmoothingEnabled = false;
+  return [c, x];
+}
+
+/* ---- tileset B sheet ----
+   MZ B-sheet addressing (from Tilemap.prototype._addNormalTile):
+     sx = ((floor(id/128)%2)*8 + id%8) * 48
+     sy = (floor((id%256)/8) % 16) * 48
+   ids 0-127 occupy the left 8 columns, 128-255 the right 8 columns.          */
+const kinds = Object.keys(TILE_ART);
+const [tc, tx] = canvas(16 * TS, 16 * TS);
+kinds.forEach((kind, i) => {
+  const id = i + 1;                       // id 0 stays empty/transparent
+  const col = id % 8;
+  const row = Math.floor(id / 8) % 16;
+  const sx = ((Math.floor(id / 128) % 2) * 8 + col) * TS;
+  const sy = row * TS;
+  tx.drawImage(tile(kind), sx, sy, TS, TS);
+});
+out['axis_B.png'] = tc.toDataURL('image/png');
+
+/* ---- character sheets: one "$" file per character (3 cols x 4 rows) ---- */
+const DIRS = ['down', 'left', 'right', 'up'];
+for (const name of Object.keys(CHAR_SPECS)){
+  const frames = charFrames(name);
+  const [cc, cx] = canvas(3 * TS, 4 * TS);
+  DIRS.forEach((dir, row) => {
+    for (let pat = 0; pat < 3; pat++){
+      cx.drawImage(frames[dir][pat], pat * TS, row * TS, TS, TS);
+    }
+  });
+  out['$axis_' + name + '.png'] = cc.toDataURL('image/png');
+}
+
+/* ---- pictures (the doc's "show picture" events) at 3x ---- */
+for (const id of ['caretaker', 'trunk', 'hollowentrance', 'ending_stabilize', 'ending_open']){
+  const src = drawPicture(id);
+  const [pc, px] = canvas(src.width * 3, src.height * 3);
+  px.drawImage(src, 0, 0, src.width * 3, src.height * 3);
+  out['axis_' + id + '.png'] = pc.toDataURL('image/png');
+}
+
+/* ---- title background 816x624 built from the ridge silhouette ---- */
+(function title(){
+  const W = 816, H = 624;
+  const [c, x] = canvas(W, H);
+  const p = REGION_PAL.village;
+  const g = x.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, '#0d1209'); g.addColorStop(0.55, '#1b2416'); g.addColorStop(1, '#070906');
+  x.fillStyle = g; x.fillRect(0, 0, W, H);
+  // far ridge
+  x.fillStyle = '#2b3527';
+  x.beginPath(); x.moveTo(0, H);
+  x.lineTo(0, H * 0.52); x.lineTo(W * 0.18, H * 0.34); x.lineTo(W * 0.36, H * 0.5);
+  x.lineTo(W * 0.58, H * 0.28); x.lineTo(W * 0.8, H * 0.46); x.lineTo(W, H * 0.36);
+  x.lineTo(W, H); x.closePath(); x.fill();
+  // near ridge
+  x.fillStyle = '#161d13';
+  x.beginPath(); x.moveTo(0, H);
+  x.lineTo(0, H * 0.72); x.lineTo(W * 0.24, H * 0.62); x.lineTo(W * 0.5, H * 0.78);
+  x.lineTo(W * 0.74, H * 0.66); x.lineTo(W, H * 0.76); x.lineTo(W, H); x.closePath(); x.fill();
+  // the seam: a thin crack of light down the middle of the far ridge
+  x.strokeStyle = 'rgba(200,176,106,.55)'; x.lineWidth = 3;
+  x.beginPath(); x.moveTo(W * 0.58, H * 0.28); x.lineTo(W * 0.56, H * 0.36);
+  x.lineTo(W * 0.585, H * 0.43); x.stroke();
+  // leaning trees
+  x.fillStyle = '#0f140d';
+  for (let i = 0; i < 14; i++){
+    const bx = 24 + i * 58 + (i % 3) * 7;
+    const lean = ((i % 5) - 2) * 6;
+    const hh = 46 + (i % 4) * 14;
+    x.fillRect(bx, H * 0.78 - hh, 5, hh);
+    x.beginPath(); x.ellipse(bx + 2 + lean, H * 0.78 - hh - 6, 24, 15, 0, 0, Math.PI * 2); x.fill();
+  }
+  // ground
+  x.fillStyle = '#0b0f09';
+  x.fillRect(0, H * 0.79, W, H * 0.21);
+  // drifting motes
+  for (let i = 0; i < 90; i++){
+    x.fillStyle = i % 7 === 0 ? 'rgba(220,205,150,.5)' : 'rgba(150,170,130,.22)';
+    x.fillRect(Math.floor(Math.random() * W), Math.floor(Math.random() * H * 0.8), 2, 2);
+  }
+  out['axis_title.png'] = c.toDataURL('image/png');
+})();
+
+window.__art = out;
+document.getElementById('log').textContent =
+  'ready: ' + Object.keys(out).length + ' images\n' + Object.keys(out).join('\n');
+window.__artReady = true;
+</script>
+</body></html>
