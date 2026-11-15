@@ -1,5 +1,8 @@
 # THE AXIS — Game 1: The Trembling (RPG Maker MZ project)
 
+**Play: https://noizceera.github.io/the-axis-mz/**
+
+
 A real **RPG Maker MZ 1.9.0** project, generated from the design doc and the
 playable web build in `../the-axis`. It runs in a browser as-is (that is how MZ
 projects run) and opens in the MZ editor if you have it.
