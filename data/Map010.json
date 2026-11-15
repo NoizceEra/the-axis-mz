@@ -1,19 +1,19 @@
 {
-	"autoplayBgm": false,
-	"autoplayBgs": false,
+	"autoplayBgm": true,
+	"autoplayBgs": true,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Dungeon5",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
-		"name": "",
+		"name": "Wind4",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 55
 	},
 	"disableDashing": false,
 	"displayName": "The Vent Shaft",

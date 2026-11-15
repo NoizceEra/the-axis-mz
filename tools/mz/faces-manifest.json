@@ -1,0 +1,28 @@
+{
+ "sheet": "axis_faces",
+ "faces": {
+  "Wren": 0,
+  "Elder Mara": 1,
+  "Root-Tender": 2,
+  "North Keeper": 3,
+  "East Keeper": 4,
+  "West Keeper": 5,
+  "Caretaker": 6,
+  "Vela": {
+   "sheet": "axis_folk",
+   "index": 0
+  },
+  "Ospen": {
+   "sheet": "axis_folk",
+   "index": 1
+  },
+  "Nell": {
+   "sheet": "axis_folk",
+   "index": 2
+  },
+  "Halder": {
+   "sheet": "axis_folk",
+   "index": 3
+  }
+ }
+}

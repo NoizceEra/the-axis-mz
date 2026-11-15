@@ -1,19 +1,19 @@
 {
-	"autoplayBgm": false,
-	"autoplayBgs": false,
+	"autoplayBgm": true,
+	"autoplayBgs": true,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Dungeon3",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
-		"name": "",
+		"name": "Darkness",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 55
 	},
 	"disableDashing": false,
 	"displayName": "The First Hollow — The Caretaker",
@@ -1121,8 +1121,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1139,8 +1139,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1157,8 +1157,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1207,8 +1207,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1225,8 +1225,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1251,8 +1251,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1269,8 +1269,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1287,8 +1287,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1336,8 +1336,8 @@
 							"code": 101,
 							"indent": 2,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1461,8 +1461,8 @@
 							"code": 101,
 							"indent": 2,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1479,7 +1479,7 @@
 							"code": 355,
 							"indent": 2,
 							"parameters": [
-								"AxisExt.toast(\"Axis stress rises\");"
+								"AxisExt.stress(8); AxisExt.toast(\"Axis stress rises\");"
 							]
 						},
 						{
@@ -1598,8 +1598,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1616,8 +1616,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1634,7 +1634,7 @@
 							"code": 355,
 							"indent": 1,
 							"parameters": [
-								"AxisExt.toast(\"Axis stress rises\");"
+								"AxisExt.stress(8); AxisExt.toast(\"Axis stress rises\");"
 							]
 						},
 						{
@@ -1646,8 +1646,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1725,8 +1725,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1754,8 +1754,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1777,8 +1777,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"

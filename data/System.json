@@ -550,10 +550,10 @@
 	"title1Name": "axis_title",
 	"title2Name": "",
 	"titleBgm": {
-		"name": "",
+		"name": "Theme1",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 70
 	},
 	"titleCommandWindow": {
 		"background": 0,

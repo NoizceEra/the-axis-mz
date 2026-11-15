@@ -1,19 +1,19 @@
 {
-	"autoplayBgm": false,
-	"autoplayBgs": false,
+	"autoplayBgm": true,
+	"autoplayBgs": true,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Field1",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
-		"name": "",
+		"name": "Wind2",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 55
 	},
 	"disableDashing": false,
 	"displayName": "The Ridge Track",
@@ -1893,9 +1893,9 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 1,
 					"stepAnime": false,
-					"through": true,
+					"through": false,
 					"trigger": 0,
 					"walkAnime": true
 				}

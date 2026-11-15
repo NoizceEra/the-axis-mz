@@ -1,19 +1,19 @@
 {
-	"autoplayBgm": false,
-	"autoplayBgs": false,
+	"autoplayBgm": true,
+	"autoplayBgs": true,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Town1",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
-		"name": "",
+		"name": "People1",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 55
 	},
 	"disableDashing": false,
 	"displayName": "Ashhollow",
@@ -3830,59 +3830,160 @@
 					},
 					"list": [
 						{
-							"code": 111,
-							"indent": 0,
-							"parameters": [
-								0,
-								7,
-								0
-							]
-						},
-						{
 							"code": 101,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
 								"",
 								0,
 								0,
 								2,
-								"Hollis"
+								"Ospen"
 							]
 						},
 						{
 							"code": 401,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
-								"Well water’s still cloudy. Same as the day my father died, that colour. He said it meant the deep ground was breathing out."
+								"Felt it again at first light. Whole shelf of pots came off the wall."
 							]
 						},
 						{
-							"code": 411,
+							"code": 0,
 							"indent": 0,
 							"parameters": []
-						},
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 7,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "$axis_villager1",
+						"direction": 2,
+						"pattern": 1,
+						"characterIndex": 0
+					},
+					"list": [
 						{
 							"code": 101,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
 								"",
 								0,
 								0,
 								2,
-								"Hollis"
+								"Ospen"
 							]
 						},
 						{
 							"code": 401,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
-								"Well water’s gone cloudy. Don’t drink past the second bucket."
+								"You went down into it, then. And came back up. That is more than the dog did."
 							]
 						},
 						{
-							"code": 412,
+							"code": 0,
 							"indent": 0,
 							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 35,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "$axis_villager1",
+						"direction": 2,
+						"pattern": 1,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Ospen"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"All three of them steady, they say. I will believe it when my cups stay on the shelf a week."
+							]
 						},
 						{
 							"code": 0,
@@ -3945,59 +4046,160 @@
 					},
 					"list": [
 						{
-							"code": 111,
-							"indent": 0,
-							"parameters": [
-								0,
-								7,
-								0
-							]
-						},
-						{
 							"code": 101,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
 								"",
 								0,
 								0,
 								2,
-								"Senn"
+								"Nell"
 							]
 						},
 						{
 							"code": 401,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
-								"I drew our house, and then I drew the ground moving under it. Teacher said not to draw that. But it’s what I saw."
+								"Mara has been at the shrine since dawn. She does not eat when she is thinking."
 							]
 						},
 						{
-							"code": 411,
+							"code": 0,
 							"indent": 0,
 							"parameters": []
-						},
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 7,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "$axis_villager2",
+						"direction": 2,
+						"pattern": 1,
+						"characterIndex": 0
+					},
+					"list": [
 						{
 							"code": 101,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
 								"",
 								0,
 								0,
 								2,
-								"Senn"
+								"Nell"
 							]
 						},
 						{
 							"code": 401,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
-								"I felt it three times last night. I counted. Nobody else counted."
+								"The roots are in the walls down there, she says. Growing through the rock like it is nothing."
 							]
 						},
 						{
-							"code": 412,
+							"code": 0,
 							"indent": 0,
 							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 35,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "$axis_villager2",
+						"direction": 2,
+						"pattern": 1,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								"Nell"
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"Take the good blankets down to the shrine, will you? She will not ask for them."
+							]
 						},
 						{
 							"code": 0,
@@ -4060,59 +4262,91 @@
 					},
 					"list": [
 						{
-							"code": 111,
-							"indent": 0,
-							"parameters": [
-								0,
-								35,
-								0
-							]
-						},
-						{
 							"code": 101,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
 								"",
 								0,
 								0,
 								2,
-								"Renna"
+								"Halder"
 							]
 						},
 						{
 							"code": 401,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
-								"Three tokens. You actually did it. Then go up and finish it, before the ridge decides for us."
+								"Wind came up the road backwards yesterday. No, I do not know what I mean by that."
 							]
 						},
 						{
-							"code": 411,
+							"code": 0,
 							"indent": 0,
 							"parameters": []
-						},
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 39,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "$axis_villager3",
+						"direction": 4,
+						"pattern": 1,
+						"characterIndex": 0
+					},
+					"list": [
 						{
 							"code": 101,
-							"indent": 1,
+							"indent": 0,
 							"parameters": [
 								"",
 								0,
 								0,
 								2,
-								"Renna"
+								"Halder"
 							]
 						},
 						{
 							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"If you’re going up the ridge, take a second pair of boots. That’s all the wisdom I have."
-							]
-						},
-						{
-							"code": 412,
 							"indent": 0,
-							"parameters": []
+							"parameters": [
+								"It is quiet. Not the quiet of nothing happening. The other kind."
+							]
 						},
 						{
 							"code": 0,
@@ -4212,9 +4446,9 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 1,
 					"stepAnime": false,
-					"through": true,
+					"through": false,
 					"trigger": 0,
 					"walkAnime": true
 				}

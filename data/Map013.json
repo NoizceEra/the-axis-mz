@@ -1,19 +1,19 @@
 {
-	"autoplayBgm": false,
-	"autoplayBgs": false,
+	"autoplayBgm": true,
+	"autoplayBgs": true,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Dungeon6",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
-		"name": "",
+		"name": "Darkness",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 55
 	},
 	"disableDashing": false,
 	"displayName": "The Deep Root Chamber",
@@ -1749,9 +1749,9 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 1,
 					"stepAnime": false,
-					"through": true,
+					"through": false,
 					"trigger": 0,
 					"walkAnime": true
 				}
@@ -1917,15 +1917,205 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 1,
 					"stepAnime": false,
-					"through": true,
+					"through": false,
 					"trigger": 0,
 					"walkAnime": true
 				}
 			],
 			"x": 10,
 			"y": 4
+		},
+		{
+			"id": 6,
+			"name": "rootshadowB",
+			"note": "optional encounter",
+			"x": 3,
+			"y": 9,
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 101,
+							"indent": 0,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 0,
+							"parameters": [
+								"A shadow with no one casting it."
+							]
+						},
+						{
+							"code": 301,
+							"indent": 0,
+							"parameters": [
+								0,
+								2,
+								true,
+								true
+							]
+						},
+						{
+							"code": 111,
+							"indent": 0,
+							"parameters": [
+								12,
+								"$gameTroop.isAllDead()"
+							]
+						},
+						{
+							"code": 355,
+							"indent": 1,
+							"parameters": [
+								"AxisExt.stress(-4); AxisExt.toast(\"It comes apart like wet bark\");"
+							]
+						},
+						{
+							"code": 411,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 355,
+							"indent": 1,
+							"parameters": [
+								"AxisExt.stress(15); AxisExt.toast(\"You come to on the floor of the hollow\");"
+							]
+						},
+						{
+							"code": 122,
+							"indent": 1,
+							"parameters": [
+								1,
+								1,
+								0,
+								0,
+								15
+							]
+						},
+						{
+							"code": 412,
+							"indent": 0,
+							"parameters": []
+						},
+						{
+							"code": 123,
+							"indent": 0,
+							"parameters": [
+								"A",
+								0
+							]
+						},
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": {
+						"tileId": 0,
+						"characterName": "",
+						"direction": 2,
+						"pattern": 0,
+						"characterIndex": 0
+					},
+					"list": [
+						{
+							"code": 0,
+							"indent": 0,
+							"parameters": []
+						}
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{
+								"code": 0,
+								"parameters": []
+							}
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			]
 		}
 	]
 }

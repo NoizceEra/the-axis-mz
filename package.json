@@ -8,5 +8,12 @@
     "height": 624,
     "position": "center",
     "icon": "icon/icon.png"
+  },
+  "scripts": {
+    "build": "node tools/mz/build.mjs && node tools/mz/deepen.mjs",
+    "deepen": "node tools/mz/deepen.mjs",
+    "validate": "node tools/mz/validate.mjs",
+    "check": "node tools/mz/deepen.mjs && node tools/mz/validate.mjs",
+    "start": "python -m http.server 8146 --bind 127.0.0.1"
   }
 }

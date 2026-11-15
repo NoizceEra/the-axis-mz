@@ -1,19 +1,19 @@
 {
-	"autoplayBgm": false,
-	"autoplayBgs": false,
+	"autoplayBgm": true,
+	"autoplayBgs": true,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Dungeon7",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
-		"name": "",
+		"name": "Darkness",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 55
 	},
 	"disableDashing": false,
 	"displayName": "The Trunk",
@@ -1232,8 +1232,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1330,8 +1330,8 @@
 							"code": 101,
 							"indent": 4,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1480,6 +1480,252 @@
 							]
 						},
 						{
+							"code": 111,
+							"indent": 4,
+							"parameters": [
+								1,
+								1,
+								0,
+								70,
+								3
+							]
+						},
+						{
+							"code": 101,
+							"indent": 5,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 5,
+							"parameters": [
+								"Your hands are still shaking an hour later. The wood has taken the weight back and left the tremor in you, where it will stay for a while."
+							]
+						},
+						{
+							"code": 355,
+							"indent": 5,
+							"parameters": [
+								"// ENDING_STRESS_VARIANT"
+							]
+						},
+						{
+							"code": 412,
+							"indent": 4,
+							"parameters": []
+						},
+						{
+							"code": 111,
+							"indent": 4,
+							"parameters": [
+								1,
+								1,
+								0,
+								70,
+								3
+							]
+						},
+						{
+							"code": 101,
+							"indent": 5,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 5,
+							"parameters": [
+								"Your hands are still shaking an hour later. The wood has taken the weight back and left the tremor in you, where it will stay for a while."
+							]
+						},
+						{
+							"code": 355,
+							"indent": 5,
+							"parameters": [
+								"// ENDING_STRESS_VARIANT"
+							]
+						},
+						{
+							"code": 412,
+							"indent": 4,
+							"parameters": []
+						},
+						{
+							"code": 111,
+							"indent": 4,
+							"parameters": [
+								1,
+								1,
+								0,
+								70,
+								3
+							]
+						},
+						{
+							"code": 101,
+							"indent": 5,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 5,
+							"parameters": [
+								"Your hands are still shaking an hour later. The wood has taken the weight back and left the tremor in you, where it will stay for a while."
+							]
+						},
+						{
+							"code": 355,
+							"indent": 5,
+							"parameters": [
+								"// ENDING_STRESS_VARIANT"
+							]
+						},
+						{
+							"code": 412,
+							"indent": 4,
+							"parameters": []
+						},
+						{
+							"code": 111,
+							"indent": 4,
+							"parameters": [
+								1,
+								1,
+								0,
+								70,
+								3
+							]
+						},
+						{
+							"code": 101,
+							"indent": 5,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 5,
+							"parameters": [
+								"Your hands are still shaking an hour later. The wood has taken the weight back and left the tremor in you, where it will stay for a while."
+							]
+						},
+						{
+							"code": 355,
+							"indent": 5,
+							"parameters": [
+								"// ENDING_STRESS_VARIANT"
+							]
+						},
+						{
+							"code": 412,
+							"indent": 4,
+							"parameters": []
+						},
+						{
+							"code": 111,
+							"indent": 4,
+							"parameters": [
+								1,
+								1,
+								0,
+								70,
+								3
+							]
+						},
+						{
+							"code": 101,
+							"indent": 5,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 5,
+							"parameters": [
+								"Your hands are still shaking an hour later. The wood has taken the weight back and left the tremor in you, where it will stay for a while."
+							]
+						},
+						{
+							"code": 355,
+							"indent": 5,
+							"parameters": [
+								"// ENDING_STRESS_VARIANT"
+							]
+						},
+						{
+							"code": 412,
+							"indent": 4,
+							"parameters": []
+						},
+						{
+							"code": 111,
+							"indent": 4,
+							"parameters": [
+								1,
+								1,
+								0,
+								70,
+								3
+							]
+						},
+						{
+							"code": 101,
+							"indent": 5,
+							"parameters": [
+								"",
+								0,
+								0,
+								2,
+								""
+							]
+						},
+						{
+							"code": 401,
+							"indent": 5,
+							"parameters": [
+								"Your hands are still shaking an hour later. The wood has taken the weight back and left the tremor in you, where it will stay for a while."
+							]
+						},
+						{
+							"code": 355,
+							"indent": 5,
+							"parameters": [
+								"// ENDING_STRESS_VARIANT"
+							]
+						},
+						{
+							"code": 412,
+							"indent": 4,
+							"parameters": []
+						},
+						{
 							"code": 101,
 							"indent": 4,
 							"parameters": [
@@ -1540,6 +1786,18 @@
 							]
 						},
 						{
+							"code": 249,
+							"indent": 4,
+							"parameters": [
+								{
+									"name": "Mystery",
+									"volume": 90,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
 							"code": 354,
 							"indent": 4,
 							"parameters": []
@@ -1553,8 +1811,8 @@
 							"code": 101,
 							"indent": 4,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1581,8 +1839,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1609,8 +1867,8 @@
 							"code": 101,
 							"indent": 2,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1649,8 +1907,8 @@
 							"code": 101,
 							"indent": 2,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1877,6 +2135,18 @@
 							]
 						},
 						{
+							"code": 249,
+							"indent": 2,
+							"parameters": [
+								{
+									"name": "Mystery",
+									"volume": 90,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
 							"code": 354,
 							"indent": 2,
 							"parameters": []
@@ -1901,8 +2171,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1919,8 +2189,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2093,6 +2363,18 @@
 							]
 						},
 						{
+							"code": 249,
+							"indent": 3,
+							"parameters": [
+								{
+									"name": "Mystery",
+									"volume": 90,
+									"pitch": 100,
+									"pan": 0
+								}
+							]
+						},
+						{
 							"code": 354,
 							"indent": 3,
 							"parameters": []
@@ -2106,8 +2388,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2124,8 +2406,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2160,8 +2442,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2355,9 +2637,9 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 1,
 					"stepAnime": false,
-					"through": true,
+					"through": false,
 					"trigger": 0,
 					"walkAnime": true
 				}

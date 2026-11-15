@@ -1,0 +1,66 @@
+{
+ "titleBgm": "Theme1",
+ "victoryMe": "",
+ "endingMe": "Mystery",
+ "tokenMe": "Item",
+ "tremorSe": "Earth1",
+ "tokenSe": "Item1",
+ "maps": {
+  "1": {
+   "bgm": "Town2",
+   "bgs": ""
+  },
+  "2": {
+   "bgm": "Town1",
+   "bgs": "People1"
+  },
+  "3": {
+   "bgm": "Theme4",
+   "bgs": "Wind1"
+  },
+  "4": {
+   "bgm": "Field1",
+   "bgs": "Wind2"
+  },
+  "5": {
+   "bgm": "Dungeon1",
+   "bgs": "Drips"
+  },
+  "6": {
+   "bgm": "Dungeon2",
+   "bgs": "Drips"
+  },
+  "7": {
+   "bgm": "Dungeon3",
+   "bgs": "Darkness"
+  },
+  "8": {
+   "bgm": "Dungeon4",
+   "bgs": "Drips"
+  },
+  "9": {
+   "bgm": "Field3",
+   "bgs": "Wind3"
+  },
+  "10": {
+   "bgm": "Dungeon5",
+   "bgs": "Wind4"
+  },
+  "11": {
+   "bgm": "Field2",
+   "bgs": "Waterfall2"
+  },
+  "12": {
+   "bgm": "Field4",
+   "bgs": "Fire1"
+  },
+  "13": {
+   "bgm": "Dungeon6",
+   "bgs": "Darkness"
+  },
+  "14": {
+   "bgm": "Dungeon7",
+   "bgs": "Darkness"
+  }
+ }
+}

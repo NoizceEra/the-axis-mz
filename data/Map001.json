@@ -1,13 +1,13 @@
 {
-	"autoplayBgm": false,
+	"autoplayBgm": true,
 	"autoplayBgs": false,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Town2",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
 		"name": "",
@@ -794,7 +794,7 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
+								"axis_folk",
 								0,
 								0,
 								2,
@@ -812,7 +812,7 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
+								"axis_folk",
 								0,
 								0,
 								2,
@@ -830,7 +830,7 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
+								"axis_folk",
 								0,
 								0,
 								2,
@@ -1193,7 +1193,7 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
+								"axis_folk",
 								0,
 								0,
 								2,
@@ -1216,7 +1216,7 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
+								"axis_folk",
 								0,
 								0,
 								2,

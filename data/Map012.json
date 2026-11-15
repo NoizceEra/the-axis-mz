@@ -1,19 +1,19 @@
 {
-	"autoplayBgm": false,
-	"autoplayBgs": false,
+	"autoplayBgm": true,
+	"autoplayBgs": true,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Field4",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
-		"name": "",
+		"name": "Fire1",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 55
 	},
 	"disableDashing": false,
 	"displayName": "The West Stone Circle",
@@ -1828,8 +1828,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -1846,8 +1846,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -1864,8 +1864,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -1882,8 +1882,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -1923,8 +1923,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -1965,8 +1965,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -2097,15 +2097,15 @@
 							"code": 355,
 							"indent": 1,
 							"parameters": [
-								"AxisExt.toast(\"Axis stress rises\");"
+								"AxisExt.stress(5); AxisExt.toast(\"Axis stress rises\");"
 							]
 						},
 						{
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -2178,8 +2178,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -2196,8 +2196,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -2227,6 +2227,13 @@
 								34,
 								34,
 								0
+							]
+						},
+						{
+							"code": 355,
+							"indent": 0,
+							"parameters": [
+								"AxisExt.stress(-8); AxisExt.toast(\"The pressure eases, a little\");"
 							]
 						},
 						{
@@ -2317,8 +2324,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -2335,8 +2342,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								5,
 								0,
 								2,
 								"West Keeper"
@@ -3610,9 +3617,9 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 1,
 					"stepAnime": false,
-					"through": true,
+					"through": false,
 					"trigger": 0,
 					"walkAnime": true
 				}

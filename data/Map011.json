@@ -1,19 +1,19 @@
 {
-	"autoplayBgm": false,
-	"autoplayBgs": false,
+	"autoplayBgm": true,
+	"autoplayBgs": true,
 	"battleback1Name": "",
 	"battleback2Name": "",
 	"bgm": {
-		"name": "",
+		"name": "Field2",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 80
 	},
 	"bgs": {
-		"name": "",
+		"name": "Waterfall2",
 		"pan": 0,
 		"pitch": 100,
-		"volume": 90
+		"volume": 55
 	},
 	"disableDashing": false,
 	"displayName": "The East Marsh",
@@ -2116,8 +2116,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2134,8 +2134,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2152,8 +2152,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2192,8 +2192,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2210,8 +2210,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2342,15 +2342,15 @@
 							"code": 355,
 							"indent": 1,
 							"parameters": [
-								"AxisExt.toast(\"Axis stress rises\");"
+								"AxisExt.stress(5); AxisExt.toast(\"Axis stress rises\");"
 							]
 						},
 						{
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2423,8 +2423,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2441,8 +2441,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2472,6 +2472,13 @@
 								27,
 								27,
 								0
+							]
+						},
+						{
+							"code": 355,
+							"indent": 0,
+							"parameters": [
+								"AxisExt.stress(-8); AxisExt.toast(\"The pressure eases, a little\");"
 							]
 						},
 						{
@@ -2581,8 +2588,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
@@ -2599,8 +2606,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"",
-								0,
+								"axis_faces",
+								4,
 								0,
 								2,
 								"East Keeper"
