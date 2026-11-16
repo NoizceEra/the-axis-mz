@@ -1,15 +1,14 @@
 /**
- * THE AXIS - village vista pass.
+ * THE AXIS - vista pass: real buildings, and the collision that makes them solid.
  *
- * Runs AFTER build.mjs (translation) and deepen.mjs (design). It owns the part
- * of the game that is layout rather than story: real buildings instead of tile
- * slabs, and the collision that makes them solid.
+ * Runs AFTER build.mjs (translation) and deepen.mjs (design), and BEFORE
+ * autotile.mjs (which recomputes the shape bits of every A1/A2 tile, including the
+ * road spurs this pass paints).
  *
- * Why a separate pass: build.mjs regenerates every map from the web build's ops,
- * so hand-edited tiles would be lost on the next rebuild. build -> deepen -> vista
- * always converges on the same map.
+ * This pass owns layout rather than story, because build.mjs regenerates every map
+ * from the web build's ops and would lose hand-edited tiles on the next rebuild.
  *
- * Four mechanics, each checked against the shipped runtime:
+ * Four mechanics, each checked against the shipped runtime rather than assumed:
  *
  * 1. A big-building sprite is ONE event using a `!$name.png` sheet.
  *    ImageManager.isBigCharacter() treats '$' as a single character; '!' drops
@@ -30,8 +29,7 @@
  * 4. You press OK at the tile you FACE, not the tile you stand on. The
  *    interaction therefore lives ON the building event; a separate door event on
  *    the front tile would shadow it and the wall would never answer. Existing
- *    door events are adopted into the building page and removed - which is why
- *    running vista again after build.mjs picks them up again.
+ *    door events are adopted into the building page and removed.
  *
  * Usage: node tools/mz/vista.mjs [--check]
  */
@@ -47,48 +45,63 @@ const MASK_SHEET = 'axis_mask';
 const MASK_SLOT = 7;            // sheet slot 7 = tile ids 512..767
 const MASK_ID = 512;            // cell 0 of that sheet, fully transparent
 const MASK_FLAGS = 0x60f;       // impassable in all four directions
-const GRASS = 1556;             // the A5 plain tile the whole ground layer uses
-const PATH = 2912;              // A2 autotile kind 18 shape 0 - what the map uses
+const GRASS = 1556;             // the A5 plain tile Ashhollow's ground layer uses
+const PATH = 2912;              // A2 autotile kind 18, shape 0
+const PATH_KIND = 18;
+// compare by KIND, not by id: autotile.mjs rewrites the shape bits afterwards
+const isPath = t => t >= 2816 && t < 4352 && Math.floor((t - 2048) / 48) === PATH_KIND;
 const OLD_SLAB = 4736;          // the 4x3 brick blocks this pass replaces
 // 7520 is the other translation remnant: an Outside_C cell that renders as a
-// solid black 48x48 square (80 of them sat on the village's top border and
-// scattered through it). Neither id belongs to a real map, so both are cleared
-// everywhere rather than only where a new building happens to land.
+// solid black 48x48 square (80 of them sat on the village's border). Neither id
+// belongs to a real map, so both are cleared everywhere.
 const LEGACY_DECOR = [OLD_SLAB, 7520];
-const SPINE_ROWS = [9];
-const SPINE_COLS = [11];
-
-const readData = f => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
-const writeData = (f, v) => fs.writeFileSync(path.join(DATA, f), JSON.stringify(v, null, 1));
 
 /* ------------------------------------------------------------------ layout */
-// door: [x, y] = the tile the player STANDS on. The building event sits at
-// [x, y-1] and its sprite covers rows y-h .. y-1, centred on x.
-// adopt: existing event whose command list becomes the building's interaction.
-// line: used when there is no existing event to adopt.
-//
-// Ashhollow is 24x18 and has to keep two spine roads: y=9 (west <-> east) and
-// x=11 (north <-> shrine). The old layout had a road every third row, leaving
-// only 2-tile bands - no plot could hold a building. This pass returns the
-// decorative inner lanes to grass and lays one spur per door to a spine road.
-const VILLAGE = [
-    { key: 'home',    door: [4, 5],   spur: [4, 5, 4, 9] },
-    { key: 'elder',   door: [15, 5],  spur: [15, 5, 15, 9], adopt: 'marahouse' },
-    { key: 'shop',    door: [20, 5],  spur: [20, 5, 20, 9], adopt: 'shopdoor' },
-    { key: 'forge',   door: [8, 8],   spur: [8, 8, 8, 9],
-      line: 'The forge is cold, and has been for a season. Someone still sweeps it.' },
-    { key: 'granary', door: [5, 15],  spur: [5, 15, 11, 15],
-      line: 'Bare rafters. The grain went south with the last cart, and the cart never came back.' },
-];
-
-// props whose position follows the layout
-const MOVES = {
-    to_home: [4, 5],
-    well: [13, 12],
-    v1: [8, 13],
-    v2: [16, 13],
-    v3: [19, 10],
-    sign_n: [11, 4],
+// Per map. `door` is the tile the PLAYER STANDS ON; the building event sits at
+// [x, y-1] and its sprite covers rows y-h .. y-1, centred on x. `spur` connects
+// the door to existing traffic, because paintPath writes kind-18 road tiles.
+// `as` lets one sprite be placed more than once (event names must differ).
+const SITES = {
+    2: {
+        // Ashhollow is 24x18 and has to keep two spine roads: y=9 (west <-> east)
+        // and x=11 (north <-> shrine). The old layout had a road every third row,
+        // leaving 2-tile bands - no plot could hold a building. `openLanes` gives
+        // the decorative lanes back to grass and each door gets its own spur.
+        spineRows: [9], spineCols: [11], openLanes: true,
+        buildings: [
+            { key: 'home',    door: [4, 5],   spur: [4, 5, 4, 9] },
+            { key: 'elder',   door: [15, 5],  spur: [15, 5, 15, 9], adopt: 'marahouse' },
+            { key: 'shop',    door: [20, 5],  spur: [20, 5, 20, 9], adopt: 'shopdoor' },
+            { key: 'forge',   door: [8, 8],   spur: [8, 8, 8, 9],
+              line: 'The forge is cold, and has been for a season. Someone still sweeps it.' },
+            { key: 'granary', door: [5, 15],  spur: [5, 15, 11, 15],
+              line: 'Bare rafters. The grain went south with the last cart, and the cart never came back.' },
+        ],
+        moves: { to_home: [4, 5], well: [13, 12], v1: [8, 13], v2: [16, 13], v3: [19, 10], sign_n: [11, 4] },
+    },
+    3: {
+        // The Old Root Shrine, 15x13. The approach runs down x=7 from the village
+        // gate at (7,0); the stones, the root and Mara sit on that axis. The hall
+        // therefore goes to the side, facing the ridge exit at (7,12).
+        spineRows: [], spineCols: [], openLanes: false,
+        buildings: [
+            { key: 'shrine_hall', door: [10, 12], spur: [8, 12, 10, 12],
+              line: 'The hall is older than the village and smaller than you expected. The root has been let inside the walls.' },
+        ],
+        moves: {},
+    },
+    4: {
+        // The Ridge Track, 17x13. Two ruins frame the descent to the hollow mouth.
+        spineRows: [], spineCols: [], openLanes: false,
+        buildings: [
+            { key: 'ruin', as: 'ruin_west', door: [3, 5],  spur: [3, 5, 6, 5],
+              line: 'A chimney with no house under it. The hearthstone is still warm, which is not possible.' },
+            { key: 'ruin', as: 'ruin_east', door: [13, 5], spur: [8, 5, 13, 5],
+              line: 'Roof beams lie in the grass like ribs. Moss has been at them a long time.' },
+        ],
+        // lean_tree used to sit on the west spur
+        moves: { lean_tree: [5, 6] },
+    },
 };
 
 /* ------------------------------------------------------------------ helpers */
@@ -185,16 +198,15 @@ function paintPath(map, x0, y0, x1, y1) {
         for (let x = Math.min(x0, x1); x <= Math.max(x0, x1); x++) {
             if (x < 0 || y < 0 || x >= width || y >= height) continue;
             const i = y * width + x;
-            if (data[i] !== PATH) { data[i] = PATH; n++; }
+            if (!isPath(data[i])) { data[i] = PATH; n++; }
         }
     }
     return n;
 }
 
-// A door is only a door if the player can stand on its front tile, and the old
-// map had decor (a B-sheet bush) sitting on one of them. Decor lives above the
-// ground layer, so painting a path underneath it changes nothing - the tile
-// itself has to go.
+// A door is only a door if the player can stand on its front tile, and old maps
+// had decor (a B-sheet bush) sitting on one of them. Decor lives above the ground
+// layer, so painting a path underneath it changes nothing - the tile has to go.
 function clearDecor(map, x, y) {
     const { width, height, data } = map;
     let n = 0;
@@ -219,14 +231,14 @@ function firstMeaningfulFlags(map, flags, x, y) {
     return 0x10;
 }
 
-function openInnerLanes(map, keep = new Set()) {
+function openInnerLanes(map, spineRows, spineCols, keep) {
     let n = 0;
     for (let y = 0; y < map.height; y++) {
         for (let x = 0; x < map.width; x++) {
-            if (SPINE_ROWS.includes(y) || SPINE_COLS.includes(x)) continue;
+            if (spineRows.includes(y) || spineCols.includes(x)) continue;
             if (keep.has(`${x},${y}`)) continue;          // a spur is a road on purpose
             const i = y * map.width + x;
-            if (map.data[i] !== PATH) continue;
+            if (!isPath(map.data[i])) continue;
             if (y === map.height - 1 && x >= 11 && x <= 12) continue;  // shrine exit stubs
             map.data[i] = GRASS; n++;
         }
@@ -234,7 +246,7 @@ function openInnerLanes(map, keep = new Set()) {
     return n;
 }
 
-const spurCells = (spur) => {
+const spurCells = spur => {
     const cells = new Set();
     const [x0, y0, x1, y1] = spur;
     for (let y = Math.min(y0, y1); y <= Math.max(y0, y1); y++) {
@@ -244,22 +256,24 @@ const spurCells = (spur) => {
 };
 
 /* -------------------------------------------------------------------- main */
-function build() {
-    const manifest = JSON.parse(fs.readFileSync(path.join(HERE, 'buildings.json'), 'utf8'));
-    const r = { mask: ensureMaskSheet(), slabs: 0, lanes: 0, cleared: 0, painted: 0,
-                events: 0, adopted: 0, spurs: 0, moved: 0 };
+const readData = f => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
+const writeData = (f, v) => fs.writeFileSync(path.join(DATA, f), JSON.stringify(v, null, 1));
 
-    const map = readData('Map002.json');
+function buildMap(mapId, site, manifest, totals) {
+    const file = `Map${String(mapId).padStart(3, '0')}.json`;
+    const map = readData(file);
+    const r = { cleared: 0, painted: 0, events: 0, adopted: 0, spurs: 0, moved: 0, lanes: 0 };
     r.slabs = clearSlabs(map);
+
     const keep = new Set();
-    for (const site of VILLAGE) for (const c of spurCells(site.spur)) keep.add(c);
-    r.lanes = openInnerLanes(map, keep);
+    for (const b of site.buildings) for (const c of spurCells(b.spur)) keep.add(c);
+    if (site.openLanes) r.lanes = openInnerLanes(map, site.spineRows, site.spineCols, keep);
 
     let nextId = Math.max(...map.events.filter(Boolean).map(e => e.id)) + 1;
-    for (const site of VILLAGE) {
-        const info = manifest.buildings[site.key];
-        if (!info) throw new Error(`no sprite for "${site.key}" - run tools/mz/buildings.py first`);
-        const [doorX, doorY] = site.door;
+    for (const b of site.buildings) {
+        const info = manifest.buildings[b.key];
+        if (!info) throw new Error(`no sprite for "${b.key}" - run tools/mz/buildings.py first`);
+        const [doorX, doorY] = b.door;
         const [tw, th] = info.cellTiles;
         const evX = doorX, evY = doorY - 1;
         const x0 = evX - Math.floor((tw - 1) / 2);
@@ -267,25 +281,25 @@ function build() {
 
         r.cleared += clearFootprint(map, x0, y0, tw, th);
         r.painted += paintMask(map, x0, y0, info.cover);
-        r.spurs += paintPath(map, ...site.spur);
-        r.cleared += clearDecor(map, doorX, doorY);       // the player has to be able to stand here
+        r.spurs += paintPath(map, ...b.spur);
+        r.cleared += clearDecor(map, doorX, doorY);
 
         // the interaction: adopt the old door event's commands, else write our own
         let list;
-        if (site.adopt) {
-            const src = map.events.find(e => e && e.name === site.adopt);
+        if (b.adopt) {
+            const src = map.events.find(e => e && e.name === b.adopt);
             if (src) {
                 list = src.pages[0].list.slice();
                 map.events[map.events.indexOf(src)] = null;
                 r.adopted++;
             }
         }
+        const name = `bldg_${b.as || b.key}`;
         if (!list) {
-            const prior = map.events.find(e => e && e.name === `bldg_${site.key}`);
-            list = prior ? prior.pages[0].list.slice() : say(site.line ?? 'The door is barred.');
+            const prior = map.events.find(e => e && e.name === name);
+            list = prior ? prior.pages[0].list.slice() : say(b.line ?? 'The door is barred.');
         }
 
-        const name = `bldg_${site.key}`;
         const sheet = info.sheet.replace(/\.png$/i, '');   // MZ stores the name without extension
         const note = `vista | ${info.sheet} | ${tw}x${th} tiles from ${x0},${y0} | stand on ${doorX},${doorY}`;
         const page = makePage({ imageName: sheet, list });
@@ -298,55 +312,61 @@ function build() {
         r.events++;
     }
 
-    for (const [name, [x, y]] of Object.entries(MOVES)) {
+    for (const [name, [x, y]] of Object.entries(site.moves || {})) {
         const ev = map.events.find(e => e && e.name === name);
-        if (!ev) throw new Error(`event "${name}" not found in Map002`);
+        if (!ev) throw new Error(`event "${name}" not found in ${file}`);
         if (ev.x !== x || ev.y !== y) { ev.x = x; ev.y = y; r.moved++; }
     }
 
-    // MZ indexes $dataMap.events BY EVENT ID (Game_Event.initialize ->
-    // this.event() -> $dataMap.events[this._eventId]), so the array must stay
-    // dense with events[i].id === i and a null at 0. Removing an adopted door
-    // event therefore leaves a null hole rather than shifting everything down -
-    // shifting is what crashed Game_Map.setupEvents with "reading 'x'".
-    if (map.events[0] !== null) throw new Error('Map002 events[0] must be null');
+    // MZ indexes $dataMap.events BY EVENT ID (Game_Event.initialize -> this.event()
+    // -> $dataMap.events[this._eventId]), so the array must stay dense with
+    // events[i].id === i and a null at 0. Removing an adopted door event therefore
+    // leaves a null hole rather than shifting everything down - shifting is what
+    // crashed Game_Map.setupEvents with "reading 'x'".
+    if (map.events[0] !== null) throw new Error(`${file}: events[0] must be null`);
     for (let i = 1; i < map.events.length; i++) {
         const e = map.events[i];
         if (!e) continue;
-        if (e.id !== i) throw new Error(`event index/id mismatch: events[${i}].id = ${e.id}`);
+        if (e.id !== i) throw new Error(`${file}: events[${i}].id = ${e.id}`);
     }
 
-    // every door front tile must be walkable in all four directions, or the
-    // building is decoration the player can never touch
+    // every door front tile must be walkable in all four directions
     const flags = readData('Tilesets.json')[map.tilesetId].flags;
-    for (const site of VILLAGE) {
-        const [dx, dy] = site.door;
+    for (const b of site.buildings) {
+        const [dx, dy] = b.door;
         const f = firstMeaningfulFlags(map, flags, dx, dy);
         if ((f & 0x0f) !== 0) {
-            throw new Error(`door for "${site.key}" at ${dx},${dy} is not walkable (flags 0x${f.toString(16)})`);
+            throw new Error(`${file}: door for "${b.as || b.key}" at ${dx},${dy} is not walkable (flags 0x${f.toString(16)})`);
         }
     }
 
-    writeData('Map002.json', map);
+    writeData(file, map);
+    for (const k of ['cleared', 'painted', 'events', 'adopted', 'spurs', 'moved', 'lanes', 'slabs']) {
+        totals[k] = (totals[k] || 0) + (r[k] || 0);
+    }
     return r;
 }
 
 if (process.argv.includes('--check')) {
-    const map = readData('Map002.json');
     const ts = readData('Tilesets.json')[1];
-    const area = map.width * map.height;
-    const bldgs = map.events.filter(e => e && e.name.startsWith('bldg_'));
-    let maskCells = 0;
-    for (let i = area; i < 2 * area; i++) if (map.data[i] === MASK_ID) maskCells++;
     console.log(`mask sheet : ${ts.tilesetNames[MASK_SLOT] || '(none)'}  flags[${MASK_ID}]=0x${ts.flags[MASK_ID].toString(16)}`);
-    console.log(`buildings  : ${bldgs.length} -> ${bldgs.map(b => `${b.name}@${b.x},${b.y}`).join('  ')}`);
-    console.log(`mask cells : ${maskCells} on z1`);
-    console.log(`slabs left : ${map.data.filter(v => v === OLD_SLAB).length}`);
+    for (const id of Object.keys(SITES)) {
+        const map = readData(`Map${String(id).padStart(3, '0')}.json`);
+        const area = map.width * map.height;
+        let mask = 0;
+        for (let i = area; i < 2 * area; i++) if (map.data[i] === MASK_ID) mask++;
+        const bldgs = map.events.filter(e => e && e.name.startsWith('bldg_'));
+        console.log(`map ${id} ${map.displayName.padEnd(24)} ${bldgs.length} buildings, ${mask} mask cells :: ` +
+            bldgs.map(b => `${b.name}@${b.x},${b.y}`).join(' '));
+    }
 } else {
-    const r = build();
+    const manifest = JSON.parse(fs.readFileSync(path.join(HERE, 'buildings.json'), 'utf8'));
+    const mask = ensureMaskSheet();
+    const totals = {};
+    for (const [id, site] of Object.entries(SITES)) buildMap(Number(id), site, manifest, totals);
     console.log(
-        `vista: ${r.events} buildings (${r.adopted} doors adopted) | ${r.painted} collision tiles | ` +
-        `${r.cleared} stale decor cleared | ${r.slabs} old slabs removed | ` +
-        `${r.lanes} lane tiles -> grass | ${r.spurs} spur tiles | ${r.moved} events moved | ` +
-        `tileset ${r.mask ? 'updated' : 'unchanged'}`);
+        `vista: ${totals.events} buildings (${totals.adopted} doors adopted) | ${totals.painted} collision tiles | ` +
+        `${totals.cleared} stale decor cleared | ${totals.slabs} old slabs removed | ` +
+        `${totals.lanes} lane tiles -> grass | ${totals.spurs} spur tiles | ${totals.moved} events moved | ` +
+        `tileset ${mask ? 'updated' : 'unchanged'}`);
 }

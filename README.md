@@ -18,7 +18,10 @@ tools/mz/build.mjs    translates the web build's content into native MZ JSON
 tools/mz/tileset.mjs  restores the RTP sheet names + flags build.mjs does not emit
 tools/mz/deepen.mjs   the game-design pass: faces, audio, stress, combat, repairs
 tools/mz/vista.mjs    the village layout pass: real buildings + invisible collision
+tools/mz/autotile.mjs recomputes every A1/A2 tile's edge shape from its neighbours
+tools/mz/detail.mjs   RTP decor: treelines, hedgerows, drifts, props (guarded)
 tools/mz/buildings.py renders the building sprites (see "The village vista pass")
+tools/mz/autotile-sheet.py / autotile-kinds.py  render + measure all 48 autotile shapes
 tools/mz/tileset-rtp.json  the RTP tileset contract (names + 8192 passage flags)
 tools/mz/validate.mjs structural validator (branch nesting, ids, assets, reachability)
 tools/mz/playtest-lib.js + playtest.js   in-engine verification drivers
@@ -138,11 +141,79 @@ One palette across tiles and buildings is what stops asset soup.
 | the door answers | the interaction lives ON the building page | you press OK at the tile you *face*. A separate door event on the front tile shadows the building and the wall never responds |
 | the plots exist | the decorative lanes go back to grass, one spur per door | the old map had a road every third row, leaving 2-tile bands — no plot could ever hold a building |
 
+## Autotiling: the single biggest map upgrade in the project
+
+Every map was generated with **one autotile shape: 0**. Shape 0 is the fully
+interior tile, so no road had an edge, no dirt patch had a border, and the ground
+type changed with a hard invisible seam. The whole game looked flat for that one
+reason, and no amount of decorating fixes it.
+
+`tools/mz/autotile.mjs` recomputes the shape of every A1/A2 tile from its
+neighbours: **1,137 of 2,060 tiles reshaped across all 14 maps.**
+
+The shape index is not documented. It is `tileId % 48` and its meaning lives in
+`Tilemap.FLOOR_AUTOTILE_TABLE` (`js/rmmz_core.js:2793`), so rather than guess,
+`tools/mz/autotile-sheet.py` renders all 48 shapes through that exact table and
+each is classified by how much grass shows in its four edge bands and four
+corners:
+
+```
+all four sides connected -> shape = diagonal mask, 0..15  (NW 1, NE 2, SW 4, SE 8)
+otherwise                -> 14:20  13:24  12:36  11:28  10:33   9:38   8:45   7:16
+                             6:34   5:32   4:42   3:40   2:43   1:44   0:46
+```
+
+A1 and A2 share that table, so the mapping applies to both. A3/A4 use
+`WALL_AUTOTILE_TABLE` and are left untouched — this project places none, and a
+guess would be worse than doing nothing.
+
+### The black-hole class, and why a "safe kind" list exists
+
+`tools/mz/autotile-kinds.py` measures each kind's **interior shape coverage**
+against the real sheet. A normal ground autotile is ~100% opaque. **Kinds 21, 23
+and 29 are 15–29% opaque** — they are sparse overlays (rubble, a puddle), and
+92 of them were painted on the ground layer on the shrine, ridge and stone-circle
+maps. A sparse tile at z0 leaves the canvas backdrop showing through as a solid
+black 48×48 square. They are now **lifted to an overlay layer with a solid tile of
+the map's own ground underneath**, which keeps the look and removes the hole.
+
+## Detail: RTP decor, and a guard that refuses to wall the player in
+
+`tools/mz/detail.mjs` adds **486 decor tiles across six outdoor maps**, every one
+from the RTP `Outside_B` sheet and only from ids the project already used, so no
+new art direction enters. A per-map seed drives a mulberry32 PRNG — the same map
+always gets the same flowers, and re-running is a no-op.
+
+It plants in structures, not noise: a treeline on the verge, a ragged hedgerow one
+tile off the roads, interior groves, flower drifts, and a few standing props.
+
+**The important part is the guard.** Blocking decor is a wall, so every placement
+is applied one tile at a time and the passability grid is flood-filled after each
+one; a placement that closes a route or drops the map's main-component share is
+**rejected individually**. The first version was all-or-nothing and threw away
+60–90 good tiles because one corner pinched a lane — rejecting the placement
+instead of the pass is the difference between 100 and 486 tiles. (The count
+settles at 486 rather than the 539 of a first run, because a re-run will not plant
+decor on the tiles the autotile pass lifted to overlays.) Typical run: 6–17
+placements rejected out of ~110, every event still reachable.
+
+## The shrine and the ridge
+
+`vista.mjs` now takes a per-map site list, not just Ashhollow:
+
+- **Map 3, The Old Root Shrine** — a 5×4 shrine hall to the east of the approach,
+  facing the ridge exit, reachable by a new spur off the existing exit path.
+- **Map 4, The Ridge Track** — two ruined houses framing the descent to the hollow
+  mouth. `lean_tree` moved one tile off the west spur so it stops blocking it.
+
+Eight buildings across three maps, 141 collision tiles, all door front tiles proven
+walkable in four directions before anything is written.
+
 ## Regenerating the data
 
 ```bash
 npm run art      # the building sprites  (needs python + Pillow, and parametric-topdown beside this repo)
-npm run build    # tileset -> deepen -> vista
+npm run build    # tileset -> deepen -> vista -> autotile -> detail
 npm run check    # the same, then the validator
 ```
 

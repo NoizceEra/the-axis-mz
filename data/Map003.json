@@ -1,2747 +1,2826 @@
 {
-	"autoplayBgm": true,
-	"autoplayBgs": true,
-	"battleback1Name": "",
-	"battleback2Name": "",
-	"bgm": {
-		"name": "Theme4",
-		"pan": 0,
-		"pitch": 100,
-		"volume": 80
-	},
-	"bgs": {
-		"name": "Wind1",
-		"pan": 0,
-		"pitch": 100,
-		"volume": 55
-	},
-	"disableDashing": false,
-	"displayName": "The Old Root Shrine",
-	"encounterList": [],
-	"encounterStep": 30,
-	"height": 13,
-	"note": "",
-	"parallaxLoopX": false,
-	"parallaxLoopY": false,
-	"parallaxName": "",
-	"parallaxShow": true,
-	"parallaxSx": 0,
-	"parallaxSy": 0,
-	"scrollType": 0,
-	"specifyBattleback": false,
-	"tilesetId": 1,
-	"width": 15,
-	"data": [
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		2912,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		2912,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		2912,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		2912,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		2912,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		3152,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		3152,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1560,
-		1560,
-		1560,
-		1560,
-		3152,
-		1560,
-		1560,
-		1560,
-		1560,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		3152,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		1560,
-		3152,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		2912,
-		2912,
-		2912,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		0,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		162,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		160,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		0,
-		159,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		159,
-		0,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		0,
-		159,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		159,
-		0,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		7520,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0
-	],
-	"events": [
-		null,
-		{
-			"id": 1,
-			"name": "OnEnter",
-			"note": "runs once on entry",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 111,
-							"indent": 0,
-							"parameters": [
-								0,
-								4,
-								0
-							]
-						},
-						{
-							"code": 411,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 121,
-							"indent": 1,
-							"parameters": [
-								4,
-								4,
-								0
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"The shrine is nine stones and a root. The stones have always been grey. The root has always been the colour of a held breath."
-							]
-						},
-						{
-							"code": 412,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": true,
-					"trigger": 3,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 4,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": true,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 0,
-			"y": 0
-		},
-		{
-			"id": 2,
-			"name": "to_village",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 201,
-							"indent": 0,
-							"parameters": [
-								0,
-								2,
-								11,
-								16,
-								8,
-								0
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": true,
-					"trigger": 1,
-					"walkAnime": true
-				}
-			],
-			"x": 7,
-			"y": 0
-		},
-		{
-			"id": 3,
-			"name": "to_ridge",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 201,
-							"indent": 0,
-							"parameters": [
-								0,
-								4,
-								7,
-								2,
-								2,
-								0
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": true,
-					"trigger": 1,
-					"walkAnime": true
-				}
-			],
-			"x": 7,
-			"y": 12
-		},
-		{
-			"id": 4,
-			"name": "mara",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "People4",
-						"direction": 6,
-						"pattern": 1,
-						"characterIndex": 2
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"That’s close enough. Look at the crack — see how it runs? It didn’t crack. It was already a seam."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"The ridge has always spoken. Lately it only groans. Your grandmother used to leave offerings at the old root. If the hollow is open, go carefully. Bring me whatever the earth gives you."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Well?"
-							]
-						},
-						{
-							"code": 102,
-							"indent": 0,
-							"parameters": [
-								[
-									"I’ll go and look.",
-									"What am I looking for?",
-									"Why me?"
-								],
-								0,
-								0,
-								2,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								0,
-								"I’ll go and look."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"Down the south path, then up the ridge track until the ground gives out. You’ll know it."
-							]
-						},
-						{
-							"code": 355,
-							"indent": 1,
-							"parameters": [
-								"AxisExt.objective(\"Go south past the shrine, up the ridge track, and find the new hollow.\");"
-							]
-						},
-						{
-							"code": 121,
-							"indent": 1,
-							"parameters": [
-								5,
-								5,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								1,
-								"What am I looking for?"
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"I don’t know. That’s why I’m sending you and not going myself. If I knew, I’d send a rule instead of a person."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"Anything else?"
-							]
-						},
-						{
-							"code": 102,
-							"indent": 1,
-							"parameters": [
-								[
-									"I’ll go.",
-									"Why me?"
-								],
-								0,
-								0,
-								2,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 1,
-							"parameters": [
-								0,
-								"I’ll go."
-							]
-						},
-						{
-							"code": 355,
-							"indent": 2,
-							"parameters": [
-								"AxisExt.objective(\"Go south past the shrine, up the ridge track, and find the new hollow.\");"
-							]
-						},
-						{
-							"code": 121,
-							"indent": 2,
-							"parameters": [
-								5,
-								5,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 1,
-							"parameters": [
-								1,
-								"Why me?"
-							]
-						},
-						{
-							"code": 101,
-							"indent": 2,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 2,
-							"parameters": [
-								"Because you still leave the offering at the old root even when nobody’s watching. That’s the whole qualification. Now go."
-							]
-						},
-						{
-							"code": 355,
-							"indent": 2,
-							"parameters": [
-								"AxisExt.objective(\"Go south past the shrine, up the ridge track, and find the new hollow.\");"
-							]
-						},
-						{
-							"code": 121,
-							"indent": 2,
-							"parameters": [
-								5,
-								5,
-								0
-							]
-						},
-						{
-							"code": 404,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								2,
-								"Why me?"
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"Because you still leave the offering at the old root even when nobody’s watching. That’s the whole qualification."
-							]
-						},
-						{
-							"code": 355,
-							"indent": 1,
-							"parameters": [
-								"AxisExt.objective(\"Go south past the shrine, up the ridge track, and find the new hollow.\");"
-							]
-						},
-						{
-							"code": 121,
-							"indent": 1,
-							"parameters": [
-								5,
-								5,
-								0
-							]
-						},
-						{
-							"code": 404,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 7,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "People4",
-						"direction": 6,
-						"pattern": 1,
-						"characterIndex": 2
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"You’re back, and you brought the smell of open root with you. So it is open. The new hollow is a symptom, not a wound."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Three supports held this side of the world steady. North cairn, east tree, west circle. My grandmother walked all three in a day and complained about her boots the whole way."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Go to each. Fix what can be fixed. Bring back the tokens — they’re not souvenirs, they’re the only proof the ridge still accepts a hand on it."
-							]
-						},
-						{
-							"code": 355,
-							"indent": 0,
-							"parameters": [
-								"AxisExt.objective(\"Visit the three supports. North: cold cairn. East: the wet tree. West: the burnt circle.\");"
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Before you go — how are you carrying all this?"
-							]
-						},
-						{
-							"code": 102,
-							"indent": 0,
-							"parameters": [
-								[
-									"Steady enough.",
-									"My hands won’t stop shaking."
-								],
-								0,
-								0,
-								2,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								0,
-								"Steady enough."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"Good. Steady is a resource. Spend it wisely."
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								1,
-								"My hands won’t stop shaking."
-							]
-						},
-						{
-							"code": 122,
-							"indent": 1,
-							"parameters": [
-								1,
-								1,
-								1,
-								0,
-								-4
-							]
-						},
-						{
-							"code": 111,
-							"indent": 1,
-							"parameters": [
-								1,
-								1,
-								0,
-								100,
-								3
-							]
-						},
-						{
-							"code": 122,
-							"indent": 2,
-							"parameters": [
-								1,
-								1,
-								0,
-								0,
-								100
-							]
-						},
-						{
-							"code": 412,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 111,
-							"indent": 1,
-							"parameters": [
-								1,
-								1,
-								0,
-								0,
-								4
-							]
-						},
-						{
-							"code": 122,
-							"indent": 2,
-							"parameters": [
-								1,
-								1,
-								0,
-								0,
-								0
-							]
-						},
-						{
-							"code": 412,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 111,
-							"indent": 1,
-							"parameters": [
-								1,
-								1,
-								0,
-								50,
-								1
-							]
-						},
-						{
-							"code": 121,
-							"indent": 2,
-							"parameters": [
-								36,
-								36,
-								0
-							]
-						},
-						{
-							"code": 412,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"Then stop looking at the ground and look at the path. The shaking is not the danger. Freezing because of the shaking is."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"Here. Chew one when it gets bad. Don’t chew three."
-							]
-						},
-						{
-							"code": 126,
-							"indent": 1,
-							"parameters": [
-								8,
-								0,
-								0,
-								1
-							]
-						},
-						{
-							"code": 404,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 35,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "People4",
-						"direction": 6,
-						"pattern": 1,
-						"characterIndex": 2
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"All three. And not one of the keepers dead over it. You have better manners than your grandmother."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"The old root is open now — under it, the deep chamber, and above that the trunk itself. I can’t go. My knees are a village matter, not a ridge matter."
-							]
-						},
-						{
-							"code": 111,
-							"indent": 0,
-							"parameters": [
-								1,
-								1,
-								0,
-								50,
-								1
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"And take this with you: the ground has been counting your steps. It knows how much you’ve let slide. Whatever you decide up there, decide it looking at your own hands."
-							]
-						},
-						{
-							"code": 411,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								1,
-								0,
-								2,
-								"Elder Mara"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"You’ve kept it steady down here. That counts for something up there. Go steady."
-							]
-						},
-						{
-							"code": 412,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 355,
-							"indent": 0,
-							"parameters": [
-								"AxisExt.objective(\"Go down through the old root — the Deep Root Chamber, then the Trunk.\");"
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 6,
-			"y": 8
-		},
-		{
-			"id": 5,
-			"name": "oldroot",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"The old root — a hold of grey wood too big for a tree, worn smooth by offerings and hands. A hairline seam runs down it."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Your grandmother left a stone in the notch, every seventh year. There is no stone this year."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 7,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"The old root is still shut along the seam. Not yet. The ridge hasn’t asked to be opened."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"When all three tokens are set into the shrine, this seam will remember how to open."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 35,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"The old root has opened along a seam you never noticed, down into warm dark. The Root-Tender’s Mark warms at your wrist."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Descend?"
-							]
-						},
-						{
-							"code": 102,
-							"indent": 0,
-							"parameters": [
-								[
-									"Descend.",
-									"Not yet."
-								],
-								0,
-								0,
-								2,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								0,
-								"Descend."
-							]
-						},
-						{
-							"code": 201,
-							"indent": 1,
-							"parameters": [
-								0,
-								13,
-								5,
-								11,
-								8,
-								0
-							]
-						},
-						{
-							"code": 355,
-							"indent": 1,
-							"parameters": [
-								"AxisExt.objective(\"Find the trunk.\");"
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								1,
-								"Not yet."
-							]
-						},
-						{
-							"code": 404,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 7,
-			"y": 7
-		},
-		{
-			"id": 6,
-			"name": "stones",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Nine stones in a ring, and one in the middle that has never been touched by weather on its top face."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Somebody has scratched a tally into the ring stone: three marks, then a line drawn out and away."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 7,
-			"y": 5
-		}
-	]
+ "autoplayBgm": true,
+ "autoplayBgs": true,
+ "battleback1Name": "",
+ "battleback2Name": "",
+ "bgm": {
+  "name": "Theme4",
+  "pan": 0,
+  "pitch": 100,
+  "volume": 80
+ },
+ "bgs": {
+  "name": "Wind1",
+  "pan": 0,
+  "pitch": 100,
+  "volume": 55
+ },
+ "disableDashing": false,
+ "displayName": "The Old Root Shrine",
+ "encounterList": [],
+ "encounterStep": 30,
+ "height": 13,
+ "note": "",
+ "parallaxLoopX": false,
+ "parallaxLoopY": false,
+ "parallaxName": "",
+ "parallaxShow": true,
+ "parallaxSx": 0,
+ "parallaxSy": 0,
+ "scrollType": 0,
+ "specifyBattleback": false,
+ "tilesetId": 1,
+ "width": 15,
+ "data": [
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  2954,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  2944,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  2944,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  2944,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  2956,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1560,
+  1560,
+  1560,
+  1560,
+  1556,
+  1560,
+  1560,
+  1560,
+  1560,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1560,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  2955,
+  2945,
+  2945,
+  2945,
+  2957,
+  1556,
+  1556,
+  1556,
+  1556,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  166,
+  166,
+  166,
+  166,
+  0,
+  0,
+  0,
+  166,
+  163,
+  159,
+  166,
+  166,
+  0,
+  0,
+  8,
+  0,
+  166,
+  8,
+  166,
+  157,
+  0,
+  163,
+  163,
+  160,
+  157,
+  166,
+  157,
+  0,
+  0,
+  166,
+  166,
+  166,
+  166,
+  166,
+  159,
+  0,
+  163,
+  137,
+  8,
+  0,
+  0,
+  166,
+  0,
+  0,
+  0,
+  159,
+  8,
+  160,
+  157,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  157,
+  0,
+  0,
+  159,
+  0,
+  3198,
+  160,
+  166,
+  0,
+  0,
+  0,
+  162,
+  162,
+  3198,
+  0,
+  166,
+  0,
+  0,
+  159,
+  8,
+  0,
+  160,
+  157,
+  0,
+  0,
+  0,
+  162,
+  162,
+  162,
+  0,
+  0,
+  0,
+  0,
+  166,
+  166,
+  0,
+  160,
+  0,
+  0,
+  3198,
+  0,
+  162,
+  156,
+  0,
+  159,
+  166,
+  0,
+  0,
+  166,
+  166,
+  0,
+  0,
+  0,
+  0,
+  0,
+  512,
+  512,
+  512,
+  512,
+  512,
+  166,
+  0,
+  0,
+  166,
+  166,
+  3198,
+  0,
+  0,
+  0,
+  0,
+  512,
+  512,
+  512,
+  512,
+  512,
+  159,
+  0,
+  0,
+  159,
+  166,
+  0,
+  166,
+  0,
+  166,
+  0,
+  512,
+  512,
+  512,
+  512,
+  512,
+  159,
+  0,
+  0,
+  166,
+  157,
+  166,
+  159,
+  159,
+  0,
+  0,
+  512,
+  512,
+  512,
+  512,
+  512,
+  159,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "events": [
+  null,
+  {
+   "id": 1,
+   "name": "OnEnter",
+   "note": "runs once on entry",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 111,
+       "indent": 0,
+       "parameters": [
+        0,
+        4,
+        0
+       ]
+      },
+      {
+       "code": 411,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 121,
+       "indent": 1,
+       "parameters": [
+        4,
+        4,
+        0
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "The shrine is nine stones and a root. The stones have always been grey. The root has always been the colour of a held breath."
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 0,
+     "stepAnime": false,
+     "through": true,
+     "trigger": 3,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 4,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 0,
+     "stepAnime": false,
+     "through": true,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 0,
+   "y": 0
+  },
+  {
+   "id": 2,
+   "name": "to_village",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 201,
+       "indent": 0,
+       "parameters": [
+        0,
+        2,
+        11,
+        16,
+        8,
+        0
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 0,
+     "stepAnime": false,
+     "through": true,
+     "trigger": 1,
+     "walkAnime": true
+    }
+   ],
+   "x": 7,
+   "y": 0
+  },
+  {
+   "id": 3,
+   "name": "to_ridge",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 201,
+       "indent": 0,
+       "parameters": [
+        0,
+        4,
+        7,
+        2,
+        2,
+        0
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 0,
+     "stepAnime": false,
+     "through": true,
+     "trigger": 1,
+     "walkAnime": true
+    }
+   ],
+   "x": 7,
+   "y": 12
+  },
+  {
+   "id": 4,
+   "name": "mara",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "People4",
+      "direction": 6,
+      "pattern": 1,
+      "characterIndex": 2
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "That’s close enough. Look at the crack — see how it runs? It didn’t crack. It was already a seam."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "The ridge has always spoken. Lately it only groans. Your grandmother used to leave offerings at the old root. If the hollow is open, go carefully. Bring me whatever the earth gives you."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Well?"
+       ]
+      },
+      {
+       "code": 102,
+       "indent": 0,
+       "parameters": [
+        [
+         "I’ll go and look.",
+         "What am I looking for?",
+         "Why me?"
+        ],
+        0,
+        0,
+        2,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        0,
+        "I’ll go and look."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "Down the south path, then up the ridge track until the ground gives out. You’ll know it."
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 1,
+       "parameters": [
+        "AxisExt.objective(\"Go south past the shrine, up the ridge track, and find the new hollow.\");"
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 1,
+       "parameters": [
+        5,
+        5,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        1,
+        "What am I looking for?"
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "I don’t know. That’s why I’m sending you and not going myself. If I knew, I’d send a rule instead of a person."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "Anything else?"
+       ]
+      },
+      {
+       "code": 102,
+       "indent": 1,
+       "parameters": [
+        [
+         "I’ll go.",
+         "Why me?"
+        ],
+        0,
+        0,
+        2,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 1,
+       "parameters": [
+        0,
+        "I’ll go."
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 2,
+       "parameters": [
+        "AxisExt.objective(\"Go south past the shrine, up the ridge track, and find the new hollow.\");"
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 2,
+       "parameters": [
+        5,
+        5,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 1,
+       "parameters": [
+        1,
+        "Why me?"
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 2,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 2,
+       "parameters": [
+        "Because you still leave the offering at the old root even when nobody’s watching. That’s the whole qualification. Now go."
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 2,
+       "parameters": [
+        "AxisExt.objective(\"Go south past the shrine, up the ridge track, and find the new hollow.\");"
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 2,
+       "parameters": [
+        5,
+        5,
+        0
+       ]
+      },
+      {
+       "code": 404,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        2,
+        "Why me?"
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "Because you still leave the offering at the old root even when nobody’s watching. That’s the whole qualification."
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 1,
+       "parameters": [
+        "AxisExt.objective(\"Go south past the shrine, up the ridge track, and find the new hollow.\");"
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 1,
+       "parameters": [
+        5,
+        5,
+        0
+       ]
+      },
+      {
+       "code": 404,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 7,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "People4",
+      "direction": 6,
+      "pattern": 1,
+      "characterIndex": 2
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "You’re back, and you brought the smell of open root with you. So it is open. The new hollow is a symptom, not a wound."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Three supports held this side of the world steady. North cairn, east tree, west circle. My grandmother walked all three in a day and complained about her boots the whole way."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Go to each. Fix what can be fixed. Bring back the tokens — they’re not souvenirs, they’re the only proof the ridge still accepts a hand on it."
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 0,
+       "parameters": [
+        "AxisExt.objective(\"Visit the three supports. North: cold cairn. East: the wet tree. West: the burnt circle.\");"
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Before you go — how are you carrying all this?"
+       ]
+      },
+      {
+       "code": 102,
+       "indent": 0,
+       "parameters": [
+        [
+         "Steady enough.",
+         "My hands won’t stop shaking."
+        ],
+        0,
+        0,
+        2,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        0,
+        "Steady enough."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "Good. Steady is a resource. Spend it wisely."
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        1,
+        "My hands won’t stop shaking."
+       ]
+      },
+      {
+       "code": 122,
+       "indent": 1,
+       "parameters": [
+        1,
+        1,
+        1,
+        0,
+        -4
+       ]
+      },
+      {
+       "code": 111,
+       "indent": 1,
+       "parameters": [
+        1,
+        1,
+        0,
+        100,
+        3
+       ]
+      },
+      {
+       "code": 122,
+       "indent": 2,
+       "parameters": [
+        1,
+        1,
+        0,
+        0,
+        100
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 111,
+       "indent": 1,
+       "parameters": [
+        1,
+        1,
+        0,
+        0,
+        4
+       ]
+      },
+      {
+       "code": 122,
+       "indent": 2,
+       "parameters": [
+        1,
+        1,
+        0,
+        0,
+        0
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 111,
+       "indent": 1,
+       "parameters": [
+        1,
+        1,
+        0,
+        50,
+        1
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 2,
+       "parameters": [
+        36,
+        36,
+        0
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "Then stop looking at the ground and look at the path. The shaking is not the danger. Freezing because of the shaking is."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "Here. Chew one when it gets bad. Don’t chew three."
+       ]
+      },
+      {
+       "code": 126,
+       "indent": 1,
+       "parameters": [
+        8,
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "code": 404,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 35,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "People4",
+      "direction": 6,
+      "pattern": 1,
+      "characterIndex": 2
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "All three. And not one of the keepers dead over it. You have better manners than your grandmother."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "The old root is open now — under it, the deep chamber, and above that the trunk itself. I can’t go. My knees are a village matter, not a ridge matter."
+       ]
+      },
+      {
+       "code": 111,
+       "indent": 0,
+       "parameters": [
+        1,
+        1,
+        0,
+        50,
+        1
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "And take this with you: the ground has been counting your steps. It knows how much you’ve let slide. Whatever you decide up there, decide it looking at your own hands."
+       ]
+      },
+      {
+       "code": 411,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        1,
+        0,
+        2,
+        "Elder Mara"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "You’ve kept it steady down here. That counts for something up there. Go steady."
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 355,
+       "indent": 0,
+       "parameters": [
+        "AxisExt.objective(\"Go down through the old root — the Deep Root Chamber, then the Trunk.\");"
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 6,
+   "y": 8
+  },
+  {
+   "id": 5,
+   "name": "oldroot",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "The old root — a hold of grey wood too big for a tree, worn smooth by offerings and hands. A hairline seam runs down it."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Your grandmother left a stone in the notch, every seventh year. There is no stone this year."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 7,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "The old root is still shut along the seam. Not yet. The ridge hasn’t asked to be opened."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "When all three tokens are set into the shrine, this seam will remember how to open."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 35,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "The old root has opened along a seam you never noticed, down into warm dark. The Root-Tender’s Mark warms at your wrist."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Descend?"
+       ]
+      },
+      {
+       "code": 102,
+       "indent": 0,
+       "parameters": [
+        [
+         "Descend.",
+         "Not yet."
+        ],
+        0,
+        0,
+        2,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        0,
+        "Descend."
+       ]
+      },
+      {
+       "code": 201,
+       "indent": 1,
+       "parameters": [
+        0,
+        13,
+        5,
+        11,
+        8,
+        0
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 1,
+       "parameters": [
+        "AxisExt.objective(\"Find the trunk.\");"
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        1,
+        "Not yet."
+       ]
+      },
+      {
+       "code": 404,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 7,
+   "y": 7
+  },
+  {
+   "id": 6,
+   "name": "stones",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Nine stones in a ring, and one in the middle that has never been touched by weather on its top face."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Somebody has scratched a tally into the ring stone: three marks, then a line drawn out and away."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 7,
+   "y": 5
+  },
+  {
+   "id": 7,
+   "name": "bldg_shrine_hall",
+   "note": "vista | !$axis_bldg_shrine_hall.png | 5x4 tiles from 8,8 | stand on 10,12",
+   "x": 10,
+   "y": 11,
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "!$axis_bldg_shrine_hall",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "The hall is older than the village and smaller than you expected. The root has been let inside the walls."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ]
+  }
+ ]
 }

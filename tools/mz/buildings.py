@@ -76,6 +76,7 @@ BUILDINGS = [
     ('forge',  'jiangnan_pixel', 'forge', (4, 4), []),
     # the Old Root Shrine
     ('shrine', 'forest', 'temple',        (8, 6), []),
+    ('shrine_hall', 'jiangnan_pixel', 'ancestral_hall', (5, 4), []),
     # ridge / hollow dressing
     ('ruin',   'forest', 'abandoned_house', (4, 3), []),
     ('granary', 'forest', 'granary',      (4, 4), []),

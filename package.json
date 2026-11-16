@@ -3,7 +3,7 @@
   "main": "index.html",
   "chromium-args": "--force-color-profile=srgb",
   "window": {
-    "title": "THE AXIS \u2014 The Trembling",
+    "title": "THE AXIS — The Trembling",
     "width": 816,
     "height": 624,
     "position": "center",
@@ -11,13 +11,15 @@
   },
   "scripts": {
     "art": "python tools/mz/buildings.py",
-    "build": "node tools/mz/tileset.mjs && node tools/mz/deepen.mjs && node tools/mz/vista.mjs",
-    "regen": "node tools/mz/build.mjs && node tools/mz/tileset.mjs && node tools/mz/deepen.mjs && node tools/mz/vista.mjs",
+    "build": "node tools/mz/tileset.mjs && node tools/mz/deepen.mjs && node tools/mz/vista.mjs && node tools/mz/autotile.mjs && node tools/mz/detail.mjs",
+    "regen": "node tools/mz/build.mjs && node tools/mz/tileset.mjs && node tools/mz/deepen.mjs && node tools/mz/vista.mjs && node tools/mz/autotile.mjs && node tools/mz/detail.mjs",
     "tileset": "node tools/mz/tileset.mjs",
     "deepen": "node tools/mz/deepen.mjs",
     "vista": "node tools/mz/vista.mjs",
     "validate": "node tools/mz/validate.mjs",
-    "check": "node tools/mz/tileset.mjs && node tools/mz/deepen.mjs && node tools/mz/vista.mjs && node tools/mz/validate.mjs",
-    "start": "python -m http.server 8146 --bind 127.0.0.1"
+    "check": "node tools/mz/tileset.mjs && node tools/mz/deepen.mjs && node tools/mz/vista.mjs && node tools/mz/autotile.mjs && node tools/mz/detail.mjs && node tools/mz/validate.mjs",
+    "start": "python -m http.server 8146 --bind 127.0.0.1",
+    "autotile": "node tools/mz/autotile.mjs",
+    "detail": "node tools/mz/detail.mjs"
   }
 }

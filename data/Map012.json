@@ -1,3631 +1,3631 @@
 {
-	"autoplayBgm": true,
-	"autoplayBgs": true,
-	"battleback1Name": "",
-	"battleback2Name": "",
-	"bgm": {
-		"name": "Field4",
-		"pan": 0,
-		"pitch": 100,
-		"volume": 80
-	},
-	"bgs": {
-		"name": "Fire1",
-		"pan": 0,
-		"pitch": 100,
-		"volume": 55
-	},
-	"disableDashing": false,
-	"displayName": "The West Stone Circle",
-	"encounterList": [],
-	"encounterStep": 30,
-	"height": 14,
-	"note": "",
-	"parallaxLoopX": false,
-	"parallaxLoopY": false,
-	"parallaxName": "",
-	"parallaxShow": true,
-	"parallaxSx": 0,
-	"parallaxSy": 0,
-	"scrollType": 0,
-	"specifyBattleback": false,
-	"tilesetId": 1,
-	"width": 18,
-	"data": [
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		3152,
-		1560,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		1560,
-		3152,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		3152,
-		3152,
-		3152,
-		1556,
-		3152,
-		3152,
-		1556,
-		3152,
-		3152,
-		3152,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		3152,
-		3152,
-		3152,
-		3152,
-		1560,
-		1560,
-		3152,
-		3152,
-		3152,
-		3152,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		3152,
-		1560,
-		3152,
-		3152,
-		3152,
-		1556,
-		3152,
-		3152,
-		1560,
-		3152,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		3152,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		3152,
-		3152,
-		3152,
-		3152,
-		2864,
-		2864,
-		3152,
-		3152,
-		3152,
-		3152,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		2864,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		1556,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		0,
-		0,
-		0,
-		171,
-		0,
-		0,
-		171,
-		0,
-		0,
-		0,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		0,
-		0,
-		0,
-		0,
-		0,
-		171,
-		0,
-		0,
-		0,
-		0,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		0,
-		0,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		0,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		239,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		4736,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0
-	],
-	"events": [
-		null,
-		{
-			"id": 1,
-			"name": "OnEnter",
-			"note": "runs once on entry",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 111,
-							"indent": 0,
-							"parameters": [
-								0,
-								28,
-								0
-							]
-						},
-						{
-							"code": 411,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 121,
-							"indent": 1,
-							"parameters": [
-								28,
-								28,
-								0
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"The circle is on burnt ground. The grass stops in a ring thirty paces wide, and inside the ring nothing has tried to grow back."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"The east stones are toppled and scorched. The centre stone is still standing, and it is facing the wrong way."
-							]
-						},
-						{
-							"code": 412,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": true,
-					"trigger": 3,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 28,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": true,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 0,
-			"y": 0
-		},
-		{
-			"id": 2,
-			"name": "to_village",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 201,
-							"indent": 0,
-							"parameters": [
-								0,
-								2,
-								1,
-								9,
-								6,
-								0
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": true,
-					"trigger": 1,
-					"walkAnime": true
-				}
-			],
-			"x": 17,
-			"y": 8
-		},
-		{
-			"id": 3,
-			"name": "keeperW",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "People3",
-						"direction": 4,
-						"pattern": 1,
-						"characterIndex": 5
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"You’re the fourth person this year. The other three came, looked at the burnt ground, and said something kind and left."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"We don’t need kind. We need the circle set right. The east stones are down — fire took them — and the centre’s been turned so it faces away from the ridge."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"A support faces what it holds. Ours faces a burnt field. You see the problem."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Three lots of debris, one stone that wants turning. Well?"
-							]
-						},
-						{
-							"code": 102,
-							"indent": 0,
-							"parameters": [
-								[
-									"I’ll clear it and turn the stone.",
-									"What happens if I turn it wrong?",
-									"Not my burnt field."
-								],
-								0,
-								0,
-								2,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								0,
-								"I’ll clear it and turn the stone."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"Then the carving will tell you which way. “The warm face greets the ridge.” It’s cut into the ring stone — everyone reads it, nobody does it."
-							]
-						},
-						{
-							"code": 355,
-							"indent": 1,
-							"parameters": [
-								"AxisExt.objective(\"Clear the three debris piles in the burnt circle, then turn the centre stone to face the ridge.\");"
-							]
-						},
-						{
-							"code": 121,
-							"indent": 1,
-							"parameters": [
-								29,
-								29,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								1,
-								"What happens if I turn it wrong?"
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"Nothing. That’s the cruelty of it. Nothing happens, and a hundred years go by, and it’s still facing the wrong way."
-							]
-						},
-						{
-							"code": 355,
-							"indent": 1,
-							"parameters": [
-								"AxisExt.objective(\"Clear the three debris piles in the burnt circle, then turn the centre stone to face the ridge.\");"
-							]
-						},
-						{
-							"code": 121,
-							"indent": 1,
-							"parameters": [
-								29,
-								29,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 0,
-							"parameters": [
-								2,
-								"Not my burnt field."
-							]
-						},
-						{
-							"code": 122,
-							"indent": 1,
-							"parameters": [
-								1,
-								1,
-								1,
-								0,
-								6
-							]
-						},
-						{
-							"code": 111,
-							"indent": 1,
-							"parameters": [
-								1,
-								1,
-								0,
-								100,
-								3
-							]
-						},
-						{
-							"code": 122,
-							"indent": 2,
-							"parameters": [
-								1,
-								1,
-								0,
-								0,
-								100
-							]
-						},
-						{
-							"code": 412,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 111,
-							"indent": 1,
-							"parameters": [
-								1,
-								1,
-								0,
-								0,
-								4
-							]
-						},
-						{
-							"code": 122,
-							"indent": 2,
-							"parameters": [
-								1,
-								1,
-								0,
-								0,
-								0
-							]
-						},
-						{
-							"code": 412,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 111,
-							"indent": 1,
-							"parameters": [
-								1,
-								1,
-								0,
-								50,
-								1
-							]
-						},
-						{
-							"code": 121,
-							"indent": 2,
-							"parameters": [
-								36,
-								36,
-								0
-							]
-						},
-						{
-							"code": 412,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 355,
-							"indent": 1,
-							"parameters": [
-								"AxisExt.stress(5); AxisExt.toast(\"Axis stress rises\");"
-							]
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"No. It’s mine. I’ll be here when you’ve thought about it."
-							]
-						},
-						{
-							"code": 404,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 33,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "People3",
-						"direction": 4,
-						"pattern": 1,
-						"characterIndex": 5
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"It’s warm. Feel it — the centre stone’s warm on the ridge face."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"That’s the west support held, and the first honest thing this ground has done in eleven years."
-							]
-						},
-						{
-							"code": 126,
-							"indent": 0,
-							"parameters": [
-								3,
-								0,
-								0,
-								1
-							]
-						},
-						{
-							"code": 121,
-							"indent": 0,
-							"parameters": [
-								34,
-								34,
-								0
-							]
-						},
-						{
-							"code": 355,
-							"indent": 0,
-							"parameters": [
-								"AxisExt.stress(-8); AxisExt.toast(\"The pressure eases, a little\");"
-							]
-						},
-						{
-							"code": 111,
-							"indent": 0,
-							"parameters": [
-								0,
-								22,
-								0
-							]
-						},
-						{
-							"code": 355,
-							"indent": 1,
-							"parameters": [
-								"AxisExt.objective(\"Two supports still out there.\");"
-							]
-						},
-						{
-							"code": 411,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 355,
-							"indent": 1,
-							"parameters": [
-								"AxisExt.objective(\"Two supports still out there.\");"
-							]
-						},
-						{
-							"code": 412,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 34,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "People3",
-						"direction": 4,
-						"pattern": 1,
-						"characterIndex": 5
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Centre’s facing the ridge. Debris cleared. Circle’s still burnt and I’m still the last one here, but it holds."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"axis_faces",
-								5,
-								0,
-								2,
-								"West Keeper"
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Take the token. It’s warm. That’s not sentiment, that’s the circle giving you something back."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 14,
-			"y": 7
-		},
-		{
-			"id": 4,
-			"name": "deb1",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"A heap of fallen stone and charred timber. You move it, stone by stone, to the edge of the ring."
-							]
-						},
-						{
-							"code": 121,
-							"indent": 0,
-							"parameters": [
-								30,
-								30,
-								0
-							]
-						},
-						{
-							"code": 355,
-							"indent": 0,
-							"parameters": [
-								"AxisExt.toast(\"Debris cleared — 1 of 3\");"
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 30,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Cleared."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 7,
-			"y": 5
-		},
-		{
-			"id": 5,
-			"name": "deb2",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"A collapsed lintel-stone, too heavy to lift, so you roll it. It leaves a clean pale scar in the ash."
-							]
-						},
-						{
-							"code": 121,
-							"indent": 0,
-							"parameters": [
-								31,
-								31,
-								0
-							]
-						},
-						{
-							"code": 355,
-							"indent": 0,
-							"parameters": [
-								"AxisExt.toast(\"Debris cleared — 2 of 3\");"
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 31,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Cleared."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 10,
-			"y": 5
-		},
-		{
-			"id": 6,
-			"name": "deb3",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Charred root and a scatter of flat stones. The ground under it is warm, faintly, like a hand just taken away."
-							]
-						},
-						{
-							"code": 121,
-							"indent": 0,
-							"parameters": [
-								32,
-								32,
-								0
-							]
-						},
-						{
-							"code": 355,
-							"indent": 0,
-							"parameters": [
-								"AxisExt.toast(\"Debris cleared — 3 of 3\");"
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 32,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Cleared."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 9,
-			"y": 8
-		},
-		{
-			"id": 7,
-			"name": "centrestone",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 111,
-							"indent": 0,
-							"parameters": [
-								0,
-								30,
-								0
-							]
-						},
-						{
-							"code": 111,
-							"indent": 1,
-							"parameters": [
-								0,
-								31,
-								0
-							]
-						},
-						{
-							"code": 111,
-							"indent": 2,
-							"parameters": [
-								0,
-								32,
-								0
-							]
-						},
-						{
-							"code": 101,
-							"indent": 3,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 3,
-							"parameters": [
-								"With the debris gone the stone turns easily — far too easily for its size. It comes round in quarters."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 3,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 3,
-							"parameters": [
-								"Turn the centre stone."
-							]
-						},
-						{
-							"code": 102,
-							"indent": 3,
-							"parameters": [
-								[
-									"Face it north — toward the ridge.",
-									"Face it east — toward the old sun road.",
-									"Face it south — toward the village."
-								],
-								0,
-								0,
-								2,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 3,
-							"parameters": [
-								0,
-								"Face it north — toward the ridge."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 4,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 4,
-							"parameters": [
-								"You set it north. The stone holds. Warmth comes up through your palms, and the burnt ring around it makes a sound like a held breath let go."
-							]
-						},
-						{
-							"code": 225,
-							"indent": 4,
-							"parameters": [
-								5,
-								5,
-								40,
-								true
-							]
-						},
-						{
-							"code": 250,
-							"indent": 4,
-							"parameters": [
-								{
-									"name": "Earth1",
-									"volume": 80,
-									"pitch": 100,
-									"pan": 0
-								}
-							]
-						},
-						{
-							"code": 121,
-							"indent": 4,
-							"parameters": [
-								33,
-								33,
-								0
-							]
-						},
-						{
-							"code": 355,
-							"indent": 4,
-							"parameters": [
-								"AxisExt.toast(\"The west circle holds\");"
-							]
-						},
-						{
-							"code": 355,
-							"indent": 4,
-							"parameters": [
-								"AxisExt.objective(\"Return to the West Keeper.\");"
-							]
-						},
-						{
-							"code": 402,
-							"indent": 3,
-							"parameters": [
-								1,
-								"Face it east — toward the old sun road."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 4,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 4,
-							"parameters": [
-								"Nothing stops you. Nothing happens either. The stone sits facing east, warm on no face at all."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 4,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 4,
-							"parameters": [
-								"“The warm face greets the ridge,” says the carving. You turn it north."
-							]
-						},
-						{
-							"code": 402,
-							"indent": 3,
-							"parameters": [
-								2,
-								"Face it south — toward the village."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 4,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 4,
-							"parameters": [
-								"You set it south. The stone is cold on every face, which answers the question well enough."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 4,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 4,
-							"parameters": [
-								"Try again?"
-							]
-						},
-						{
-							"code": 102,
-							"indent": 4,
-							"parameters": [
-								[
-									"Face it north.",
-									"Leave it."
-								],
-								0,
-								0,
-								2,
-								0
-							]
-						},
-						{
-							"code": 402,
-							"indent": 4,
-							"parameters": [
-								0,
-								"Face it north."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 5,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 5,
-							"parameters": [
-								"North holds. Warmth climbs your arms. The ring goes quiet in the right way."
-							]
-						},
-						{
-							"code": 121,
-							"indent": 5,
-							"parameters": [
-								33,
-								33,
-								0
-							]
-						},
-						{
-							"code": 355,
-							"indent": 5,
-							"parameters": [
-								"AxisExt.toast(\"The west circle holds\");"
-							]
-						},
-						{
-							"code": 402,
-							"indent": 4,
-							"parameters": [
-								1,
-								"Leave it."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 5,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 5,
-							"parameters": [
-								"You leave it facing the village. The keeper says nothing, which is worse than a complaint."
-							]
-						},
-						{
-							"code": 404,
-							"indent": 4,
-							"parameters": []
-						},
-						{
-							"code": 404,
-							"indent": 3,
-							"parameters": []
-						},
-						{
-							"code": 101,
-							"indent": 3,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 3,
-							"parameters": [
-								"Between the stones, the ring is level again. The ash has stopped drifting."
-							]
-						},
-						{
-							"code": 411,
-							"indent": 2,
-							"parameters": []
-						},
-						{
-							"code": 101,
-							"indent": 3,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 3,
-							"parameters": [
-								"One heap of debris is still in the way — the stone won’t turn cleanly with it there."
-							]
-						},
-						{
-							"code": 412,
-							"indent": 2,
-							"parameters": []
-						},
-						{
-							"code": 411,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 101,
-							"indent": 2,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 2,
-							"parameters": [
-								"Debris is still crowding the stone. Clear the ring first."
-							]
-						},
-						{
-							"code": 412,
-							"indent": 1,
-							"parameters": []
-						},
-						{
-							"code": 411,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 101,
-							"indent": 1,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 1,
-							"parameters": [
-								"The stone is jammed against fallen debris. Clear the ring first."
-							]
-						},
-						{
-							"code": 412,
-							"indent": 0,
-							"parameters": []
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				},
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 33,
-						"switch1Valid": true,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"The centre stone faces the ridge. It is warm on that face and no other."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 8,
-			"y": 6
-		},
-		{
-			"id": 8,
-			"name": "carvingW",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Cut into the ring stone, in letters worn round at the edges: “THE WARM FACE GREETS THE RIDGE.”"
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"Below it, in a different and much worse hand: “or it faces nothing and we all pretend not to notice.”"
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 5,
-			"y": 4
-		},
-		{
-			"id": 9,
-			"name": "pit",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": {
-						"tileId": 0,
-						"characterName": "",
-						"direction": 2,
-						"pattern": 0,
-						"characterIndex": 0
-					},
-					"list": [
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"A pit where the ground has eroded under the circle’s north edge. Warm air comes up out of it."
-							]
-						},
-						{
-							"code": 101,
-							"indent": 0,
-							"parameters": [
-								"",
-								0,
-								0,
-								2,
-								""
-							]
-						},
-						{
-							"code": 401,
-							"indent": 0,
-							"parameters": [
-								"You can see the underside of the ring stones. They are not set in soil. They are set in root."
-							]
-						},
-						{
-							"code": 0,
-							"indent": 0,
-							"parameters": []
-						}
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{
-								"code": 0,
-								"parameters": []
-							}
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 1,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 0,
-					"walkAnime": true
-				}
-			],
-			"x": 8,
-			"y": 10
-		}
-	]
+ "autoplayBgm": true,
+ "autoplayBgs": true,
+ "battleback1Name": "",
+ "battleback2Name": "",
+ "bgm": {
+  "name": "Field4",
+  "pan": 0,
+  "pitch": 100,
+  "volume": 80
+ },
+ "bgs": {
+  "name": "Fire1",
+  "pan": 0,
+  "pitch": 100,
+  "volume": 55
+ },
+ "disableDashing": false,
+ "displayName": "The West Stone Circle",
+ "encounterList": [],
+ "encounterStep": 30,
+ "height": 14,
+ "note": "",
+ "parallaxLoopX": false,
+ "parallaxLoopY": false,
+ "parallaxName": "",
+ "parallaxShow": true,
+ "parallaxSx": 0,
+ "parallaxSy": 0,
+ "scrollType": 0,
+ "specifyBattleback": false,
+ "tilesetId": 1,
+ "width": 18,
+ "data": [
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  2898,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2884,
+  2900,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2872,
+  2892,
+  2868,
+  2864,
+  2864,
+  2864,
+  2864,
+  2872,
+  2892,
+  2868,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2888,
+  1560,
+  2880,
+  2892,
+  2868,
+  2872,
+  2892,
+  2888,
+  1560,
+  2880,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2866,
+  2884,
+  2888,
+  1556,
+  2904,
+  2902,
+  1556,
+  2880,
+  2884,
+  2865,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2864,
+  2864,
+  2866,
+  2900,
+  1560,
+  1560,
+  2898,
+  2865,
+  2864,
+  2864,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2872,
+  2892,
+  2868,
+  2866,
+  2884,
+  2897,
+  2869,
+  2872,
+  2892,
+  2868,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2888,
+  1560,
+  2880,
+  2864,
+  2888,
+  1556,
+  2880,
+  2888,
+  1560,
+  2880,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2866,
+  2884,
+  2865,
+  2864,
+  2866,
+  2884,
+  2865,
+  2866,
+  2884,
+  2865,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2880,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2864,
+  2888,
+  1556,
+  1556,
+  2904,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2892,
+  2902,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  1556,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  0,
+  166,
+  159,
+  166,
+  166,
+  166,
+  159,
+  166,
+  159,
+  157,
+  166,
+  159,
+  8,
+  159,
+  0,
+  159,
+  4736,
+  4736,
+  159,
+  157,
+  0,
+  161,
+  0,
+  159,
+  166,
+  166,
+  166,
+  0,
+  166,
+  166,
+  0,
+  166,
+  0,
+  0,
+  4736,
+  4736,
+  159,
+  0,
+  0,
+  3186,
+  3185,
+  3172,
+  3172,
+  3172,
+  3172,
+  3172,
+  3172,
+  3185,
+  3188,
+  0,
+  166,
+  0,
+  4736,
+  4736,
+  159,
+  159,
+  161,
+  3184,
+  0,
+  3168,
+  3180,
+  3156,
+  3160,
+  3180,
+  3176,
+  137,
+  3184,
+  166,
+  0,
+  8,
+  4736,
+  4736,
+  166,
+  0,
+  161,
+  3168,
+  3172,
+  3176,
+  171,
+  3192,
+  3190,
+  171,
+  3168,
+  3172,
+  3176,
+  157,
+  0,
+  159,
+  4736,
+  4736,
+  157,
+  0,
+  8,
+  3168,
+  3152,
+  3154,
+  3188,
+  0,
+  0,
+  3186,
+  3153,
+  3152,
+  3176,
+  0,
+  0,
+  166,
+  4736,
+  4736,
+  166,
+  166,
+  8,
+  3168,
+  3180,
+  3156,
+  3154,
+  3172,
+  3185,
+  3157,
+  3160,
+  3180,
+  3176,
+  0,
+  0,
+  0,
+  4736,
+  4736,
+  0,
+  0,
+  166,
+  3184,
+  166,
+  3168,
+  3152,
+  3176,
+  171,
+  3168,
+  3176,
+  0,
+  3184,
+  0,
+  0,
+  0,
+  4736,
+  4736,
+  166,
+  157,
+  166,
+  3168,
+  3172,
+  3153,
+  3160,
+  3180,
+  3185,
+  3157,
+  3154,
+  3172,
+  3176,
+  166,
+  0,
+  0,
+  4736,
+  4736,
+  157,
+  0,
+  159,
+  3192,
+  3180,
+  3180,
+  3190,
+  0,
+  0,
+  3192,
+  3180,
+  3180,
+  3190,
+  163,
+  163,
+  159,
+  4736,
+  4736,
+  8,
+  0,
+  0,
+  0,
+  137,
+  159,
+  0,
+  0,
+  0,
+  0,
+  163,
+  163,
+  163,
+  137,
+  163,
+  166,
+  4736,
+  4736,
+  166,
+  166,
+  166,
+  166,
+  0,
+  157,
+  157,
+  157,
+  166,
+  166,
+  166,
+  166,
+  163,
+  163,
+  0,
+  166,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  4736,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "events": [
+  null,
+  {
+   "id": 1,
+   "name": "OnEnter",
+   "note": "runs once on entry",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 111,
+       "indent": 0,
+       "parameters": [
+        0,
+        28,
+        0
+       ]
+      },
+      {
+       "code": 411,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 121,
+       "indent": 1,
+       "parameters": [
+        28,
+        28,
+        0
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "The circle is on burnt ground. The grass stops in a ring thirty paces wide, and inside the ring nothing has tried to grow back."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "The east stones are toppled and scorched. The centre stone is still standing, and it is facing the wrong way."
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 0,
+     "stepAnime": false,
+     "through": true,
+     "trigger": 3,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 28,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 0,
+     "stepAnime": false,
+     "through": true,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 0,
+   "y": 0
+  },
+  {
+   "id": 2,
+   "name": "to_village",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 201,
+       "indent": 0,
+       "parameters": [
+        0,
+        2,
+        1,
+        9,
+        6,
+        0
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 0,
+     "stepAnime": false,
+     "through": true,
+     "trigger": 1,
+     "walkAnime": true
+    }
+   ],
+   "x": 17,
+   "y": 8
+  },
+  {
+   "id": 3,
+   "name": "keeperW",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "People3",
+      "direction": 4,
+      "pattern": 1,
+      "characterIndex": 5
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "You’re the fourth person this year. The other three came, looked at the burnt ground, and said something kind and left."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "We don’t need kind. We need the circle set right. The east stones are down — fire took them — and the centre’s been turned so it faces away from the ridge."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "A support faces what it holds. Ours faces a burnt field. You see the problem."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Three lots of debris, one stone that wants turning. Well?"
+       ]
+      },
+      {
+       "code": 102,
+       "indent": 0,
+       "parameters": [
+        [
+         "I’ll clear it and turn the stone.",
+         "What happens if I turn it wrong?",
+         "Not my burnt field."
+        ],
+        0,
+        0,
+        2,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        0,
+        "I’ll clear it and turn the stone."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "Then the carving will tell you which way. “The warm face greets the ridge.” It’s cut into the ring stone — everyone reads it, nobody does it."
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 1,
+       "parameters": [
+        "AxisExt.objective(\"Clear the three debris piles in the burnt circle, then turn the centre stone to face the ridge.\");"
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 1,
+       "parameters": [
+        29,
+        29,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        1,
+        "What happens if I turn it wrong?"
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "Nothing. That’s the cruelty of it. Nothing happens, and a hundred years go by, and it’s still facing the wrong way."
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 1,
+       "parameters": [
+        "AxisExt.objective(\"Clear the three debris piles in the burnt circle, then turn the centre stone to face the ridge.\");"
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 1,
+       "parameters": [
+        29,
+        29,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 0,
+       "parameters": [
+        2,
+        "Not my burnt field."
+       ]
+      },
+      {
+       "code": 122,
+       "indent": 1,
+       "parameters": [
+        1,
+        1,
+        1,
+        0,
+        6
+       ]
+      },
+      {
+       "code": 111,
+       "indent": 1,
+       "parameters": [
+        1,
+        1,
+        0,
+        100,
+        3
+       ]
+      },
+      {
+       "code": 122,
+       "indent": 2,
+       "parameters": [
+        1,
+        1,
+        0,
+        0,
+        100
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 111,
+       "indent": 1,
+       "parameters": [
+        1,
+        1,
+        0,
+        0,
+        4
+       ]
+      },
+      {
+       "code": 122,
+       "indent": 2,
+       "parameters": [
+        1,
+        1,
+        0,
+        0,
+        0
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 111,
+       "indent": 1,
+       "parameters": [
+        1,
+        1,
+        0,
+        50,
+        1
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 2,
+       "parameters": [
+        36,
+        36,
+        0
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 355,
+       "indent": 1,
+       "parameters": [
+        "AxisExt.stress(5); AxisExt.toast(\"Axis stress rises\");"
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "No. It’s mine. I’ll be here when you’ve thought about it."
+       ]
+      },
+      {
+       "code": 404,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 33,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "People3",
+      "direction": 4,
+      "pattern": 1,
+      "characterIndex": 5
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "It’s warm. Feel it — the centre stone’s warm on the ridge face."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "That’s the west support held, and the first honest thing this ground has done in eleven years."
+       ]
+      },
+      {
+       "code": 126,
+       "indent": 0,
+       "parameters": [
+        3,
+        0,
+        0,
+        1
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 0,
+       "parameters": [
+        34,
+        34,
+        0
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 0,
+       "parameters": [
+        "AxisExt.stress(-8); AxisExt.toast(\"The pressure eases, a little\");"
+       ]
+      },
+      {
+       "code": 111,
+       "indent": 0,
+       "parameters": [
+        0,
+        22,
+        0
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 1,
+       "parameters": [
+        "AxisExt.objective(\"Two supports still out there.\");"
+       ]
+      },
+      {
+       "code": 411,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 355,
+       "indent": 1,
+       "parameters": [
+        "AxisExt.objective(\"Two supports still out there.\");"
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 34,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "People3",
+      "direction": 4,
+      "pattern": 1,
+      "characterIndex": 5
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Centre’s facing the ridge. Debris cleared. Circle’s still burnt and I’m still the last one here, but it holds."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "axis_faces",
+        5,
+        0,
+        2,
+        "West Keeper"
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Take the token. It’s warm. That’s not sentiment, that’s the circle giving you something back."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 14,
+   "y": 7
+  },
+  {
+   "id": 4,
+   "name": "deb1",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "A heap of fallen stone and charred timber. You move it, stone by stone, to the edge of the ring."
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 0,
+       "parameters": [
+        30,
+        30,
+        0
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 0,
+       "parameters": [
+        "AxisExt.toast(\"Debris cleared — 1 of 3\");"
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 30,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Cleared."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 7,
+   "y": 5
+  },
+  {
+   "id": 5,
+   "name": "deb2",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "A collapsed lintel-stone, too heavy to lift, so you roll it. It leaves a clean pale scar in the ash."
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 0,
+       "parameters": [
+        31,
+        31,
+        0
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 0,
+       "parameters": [
+        "AxisExt.toast(\"Debris cleared — 2 of 3\");"
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 31,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Cleared."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 10,
+   "y": 5
+  },
+  {
+   "id": 6,
+   "name": "deb3",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Charred root and a scatter of flat stones. The ground under it is warm, faintly, like a hand just taken away."
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 0,
+       "parameters": [
+        32,
+        32,
+        0
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 0,
+       "parameters": [
+        "AxisExt.toast(\"Debris cleared — 3 of 3\");"
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 32,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Cleared."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 9,
+   "y": 8
+  },
+  {
+   "id": 7,
+   "name": "centrestone",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 111,
+       "indent": 0,
+       "parameters": [
+        0,
+        30,
+        0
+       ]
+      },
+      {
+       "code": 111,
+       "indent": 1,
+       "parameters": [
+        0,
+        31,
+        0
+       ]
+      },
+      {
+       "code": 111,
+       "indent": 2,
+       "parameters": [
+        0,
+        32,
+        0
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 3,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 3,
+       "parameters": [
+        "With the debris gone the stone turns easily — far too easily for its size. It comes round in quarters."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 3,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 3,
+       "parameters": [
+        "Turn the centre stone."
+       ]
+      },
+      {
+       "code": 102,
+       "indent": 3,
+       "parameters": [
+        [
+         "Face it north — toward the ridge.",
+         "Face it east — toward the old sun road.",
+         "Face it south — toward the village."
+        ],
+        0,
+        0,
+        2,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 3,
+       "parameters": [
+        0,
+        "Face it north — toward the ridge."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 4,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 4,
+       "parameters": [
+        "You set it north. The stone holds. Warmth comes up through your palms, and the burnt ring around it makes a sound like a held breath let go."
+       ]
+      },
+      {
+       "code": 225,
+       "indent": 4,
+       "parameters": [
+        5,
+        5,
+        40,
+        true
+       ]
+      },
+      {
+       "code": 250,
+       "indent": 4,
+       "parameters": [
+        {
+         "name": "Earth1",
+         "volume": 80,
+         "pitch": 100,
+         "pan": 0
+        }
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 4,
+       "parameters": [
+        33,
+        33,
+        0
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 4,
+       "parameters": [
+        "AxisExt.toast(\"The west circle holds\");"
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 4,
+       "parameters": [
+        "AxisExt.objective(\"Return to the West Keeper.\");"
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 3,
+       "parameters": [
+        1,
+        "Face it east — toward the old sun road."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 4,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 4,
+       "parameters": [
+        "Nothing stops you. Nothing happens either. The stone sits facing east, warm on no face at all."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 4,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 4,
+       "parameters": [
+        "“The warm face greets the ridge,” says the carving. You turn it north."
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 3,
+       "parameters": [
+        2,
+        "Face it south — toward the village."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 4,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 4,
+       "parameters": [
+        "You set it south. The stone is cold on every face, which answers the question well enough."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 4,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 4,
+       "parameters": [
+        "Try again?"
+       ]
+      },
+      {
+       "code": 102,
+       "indent": 4,
+       "parameters": [
+        [
+         "Face it north.",
+         "Leave it."
+        ],
+        0,
+        0,
+        2,
+        0
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 4,
+       "parameters": [
+        0,
+        "Face it north."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 5,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 5,
+       "parameters": [
+        "North holds. Warmth climbs your arms. The ring goes quiet in the right way."
+       ]
+      },
+      {
+       "code": 121,
+       "indent": 5,
+       "parameters": [
+        33,
+        33,
+        0
+       ]
+      },
+      {
+       "code": 355,
+       "indent": 5,
+       "parameters": [
+        "AxisExt.toast(\"The west circle holds\");"
+       ]
+      },
+      {
+       "code": 402,
+       "indent": 4,
+       "parameters": [
+        1,
+        "Leave it."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 5,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 5,
+       "parameters": [
+        "You leave it facing the village. The keeper says nothing, which is worse than a complaint."
+       ]
+      },
+      {
+       "code": 404,
+       "indent": 4,
+       "parameters": []
+      },
+      {
+       "code": 404,
+       "indent": 3,
+       "parameters": []
+      },
+      {
+       "code": 101,
+       "indent": 3,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 3,
+       "parameters": [
+        "Between the stones, the ring is level again. The ash has stopped drifting."
+       ]
+      },
+      {
+       "code": 411,
+       "indent": 2,
+       "parameters": []
+      },
+      {
+       "code": 101,
+       "indent": 3,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 3,
+       "parameters": [
+        "One heap of debris is still in the way — the stone won’t turn cleanly with it there."
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 2,
+       "parameters": []
+      },
+      {
+       "code": 411,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 101,
+       "indent": 2,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 2,
+       "parameters": [
+        "Debris is still crowding the stone. Clear the ring first."
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 1,
+       "parameters": []
+      },
+      {
+       "code": 411,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 101,
+       "indent": 1,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 1,
+       "parameters": [
+        "The stone is jammed against fallen debris. Clear the ring first."
+       ]
+      },
+      {
+       "code": 412,
+       "indent": 0,
+       "parameters": []
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    },
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 33,
+      "switch1Valid": true,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "The centre stone faces the ridge. It is warm on that face and no other."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 8,
+   "y": 6
+  },
+  {
+   "id": 8,
+   "name": "carvingW",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Cut into the ring stone, in letters worn round at the edges: “THE WARM FACE GREETS THE RIDGE.”"
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "Below it, in a different and much worse hand: “or it faces nothing and we all pretend not to notice.”"
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 5,
+   "y": 4
+  },
+  {
+   "id": 9,
+   "name": "pit",
+   "note": "",
+   "pages": [
+    {
+     "conditions": {
+      "actorId": 1,
+      "actorValid": false,
+      "itemId": 1,
+      "itemValid": false,
+      "selfSwitchCh": "A",
+      "selfSwitchValid": false,
+      "switch1Id": 1,
+      "switch1Valid": false,
+      "switch2Id": 1,
+      "switch2Valid": false,
+      "variableId": 1,
+      "variableValid": false,
+      "variableValue": 0
+     },
+     "directionFix": false,
+     "image": {
+      "tileId": 0,
+      "characterName": "",
+      "direction": 2,
+      "pattern": 0,
+      "characterIndex": 0
+     },
+     "list": [
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "A pit where the ground has eroded under the circle’s north edge. Warm air comes up out of it."
+       ]
+      },
+      {
+       "code": 101,
+       "indent": 0,
+       "parameters": [
+        "",
+        0,
+        0,
+        2,
+        ""
+       ]
+      },
+      {
+       "code": 401,
+       "indent": 0,
+       "parameters": [
+        "You can see the underside of the ring stones. They are not set in soil. They are set in root."
+       ]
+      },
+      {
+       "code": 0,
+       "indent": 0,
+       "parameters": []
+      }
+     ],
+     "moveFrequency": 3,
+     "moveRoute": {
+      "list": [
+       {
+        "code": 0,
+        "parameters": []
+       }
+      ],
+      "repeat": true,
+      "skippable": false,
+      "wait": false
+     },
+     "moveSpeed": 3,
+     "moveType": 0,
+     "priorityType": 1,
+     "stepAnime": false,
+     "through": false,
+     "trigger": 0,
+     "walkAnime": true
+    }
+   ],
+   "x": 8,
+   "y": 10
+  }
+ ]
 }
