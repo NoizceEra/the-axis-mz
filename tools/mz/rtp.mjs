@@ -87,7 +87,7 @@ const OUT = {
   darkness:    findTile('Outside', 'A5', /^Darkness$/),
   wallWood:    findTile('Outside', 'A3', /^Outer Wall E \(Wood\)$/),
   wallStone:   findTile('Outside', 'A3', /^Outer Wall A \(Rock Wall\)$/),
-  roofThatch:  findTile('Outside', 'A3', /^Roof L \(Thatched\)$/),
+  roofThatch:  findTile('Outside', 'A3', /^Roof E \(Wood\)$/),   // A3 holds 16 autotiles; Roof L (idx 19) does not exist
   hedge:       findTile('Outside', 'A4', /^Wall I \(Hedge\)$/),
   forest:      findTile('Outside', 'A4', /^Forest A$/),
   tree:        findTile('Outside', 'B', /^Tree$/),
@@ -279,6 +279,52 @@ const PROP_OBSTACLES = [/^Barrel$/, /^Crate A$/, /^Stump$/, /^Bush$/, /^Streetli
 for (const re of PROP_OBSTACLES) {
   const t = findTile('Outside', 'B', re);
   tilesets[1].flags[t.id] |= 0x0f;
+}
+
+// A tile id outside its sheet's capacity renders as nothing at all — the black
+// holes this pass produced once. Assert every id we can paint is inside its sheet.
+{
+  const BASE = { 0: 2048, 1: 2816, 2: 4352, 3: 5888, 4: 1536, 5: 0, 6: 256, 7: 512, 8: 768 };
+  const capOf = {};
+  tilesets.forEach((t, idx) => {
+    if (!t) return;
+    capOf[idx] = {};
+    t.tilesetNames.forEach((name, slot) => {
+      if (!name) return;
+      const buf = fs.readFileSync(path.join(ROOT, 'img', 'tilesets', name + '.png'));
+      const w = buf.readUInt32BE(16), h = buf.readUInt32BE(20);   // PNG IHDR
+      capOf[idx][slot] = slot <= 3 ? (w / 96) * (h / 144) : (w / 48) * (h / 48);
+    });
+  });
+  const bad = [];
+  for (const [idx, table] of Object.entries(capOf)) {
+    for (const slot of Object.keys(BASE)) {
+      const base = BASE[slot];
+      const cap = table[slot];
+      if (!cap) continue;
+      const span = slot <= 3 ? 48 : 1;
+      for (let k = 0; k < cap; k++) { /* valid range is base .. base + cap*span */ }
+      // any id painted from a vocabulary entry must land under the cap
+    }
+  }
+  const vocab = [OUT, IN, DUN];
+  for (const table of vocab) {
+    for (const [key, tile] of Object.entries(table)) {
+      const id = tile.id;
+      const owner = tilesets.findIndex((t, i) => i > 0 && t && t.name.startsWith('AXIS ' + (table === OUT ? 'OUTSIDE' : table === IN ? 'INSIDE' : 'DUNGEON')));
+      const slot = id >= 5888 ? 3 : id >= 4352 ? 2 : id >= 2816 ? 1 : id >= 2048 ? 0 : id >= 1536 ? 4 : id >= 768 ? 8 : id >= 512 ? 7 : id >= 256 ? 6 : 5;
+      const k = slot <= 3 ? Math.floor((id - BASE[slot]) / 48) : id - BASE[slot];
+      const cap = owner > 0 ? capOf[owner][slot] : undefined;
+      if (cap === undefined || k >= cap) bad.push(`${key} '${tile.name}' id ${id} -> slot ${slot} index ${k} cap ${cap}`);
+    }
+  }
+  if (bad.length) {
+    console.error('OUT-OF-RANGE RTP TILE IDS (would render black):');
+    for (const b of bad) console.error('  ' + b);
+    process.exitCode = 1;
+  } else {
+    console.log('all vocabulary ids are inside their sheet capacity');
+  }
 }
 
 save('Tilesets.json', tilesets);
