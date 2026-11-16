@@ -268,7 +268,11 @@ else {
   if (sheet && !fs.existsSync(path.join(ROOT, 'img', 'tilesets', sheet + '.png'))) {
     err('Tilesets', `tileset sheet '${sheet}.png' missing`);
   }
-  if (!ts.flags.some(f => f === 0x0f)) err('Tilesets', 'no impassable flags — every tile would be walkable');
+  // MZ flags are bitfields: bits 0-3 = impassable per direction, 0x40 counter,
+  // 0x80 damage floor, 0x800 star (drawn above characters), high bits = terrain.
+  // RTP data is full of composites (0xE0F), so never compare for equality.
+  if (!ts.flags.some(f => (f & 0x0f) === 0x0f)) err('Tilesets', 'no impassable flags — every tile would be walkable');
+  if (!ts.flags.some(f => (f & 0x800) !== 0)) warn('Tilesets', 'no star/overpass tiles — nothing draws above the player');
 }
 
 if (!system.startMapId || !maps.has(system.startMapId)) err('System', `startMapId ${system.startMapId} does not exist`);

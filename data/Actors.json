@@ -4,7 +4,7 @@
 		"id": 1,
 		"battlerName": "",
 		"characterIndex": 0,
-		"characterName": "$axis_player",
+		"characterName": "Actor1",
 		"classId": 1,
 		"equips": [
 			2,
