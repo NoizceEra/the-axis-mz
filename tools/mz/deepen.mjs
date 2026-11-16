@@ -435,7 +435,12 @@ const allMaps = MAP_IDS.map(id => ({ id, file: mapFile(id), map: load(mapFile(id
   if (ev) {
     for (const page of ev.pages) {
       const list = page.list;
-      for (let i = list.length - 1; i >= 0; i--) {
+      // idempotency: the marker 355 is inserted AFTER the text box, so looking at
+      // the command before the 101 never finds it. Scan the page for the marker
+      // instead - otherwise every run appends another 5 commands to the ending.
+      const alreadyVariant = list.some(c => c.code === 355 &&
+        String(c.parameters?.[0] || '').includes('ENDING_STRESS_VARIANT'));
+      for (let i = list.length - 1; i >= 0 && !alreadyVariant; i--) {
         const c = list[i];
         if (c.code !== 401) continue;
         const line = String(c.parameters[0] || '');
@@ -475,8 +480,23 @@ const allMaps = MAP_IDS.map(id => ({ id, file: mapFile(id), map: load(mapFile(id
     }
     save(entry.file, map);
   }
-  note('endings', inserted > 0, `${inserted} ending paragraph now varies with AxisStress >= 70`
-    + (audioSpec.endingMe ? ` · ending ME '${audioSpec.endingMe}' placed ${meWired}x` : ' · no ending ME available'));
+  // report STATE, not this run's delta: on an already-deepened project every
+  // insertion is a no-op and a delta-based report would scream FAIL forever
+  // (and, because npm chains with &&, silently stop the pipeline before vista).
+  let variants = 0, meCount = 0;
+  if (ev) {
+    for (const page of ev.pages) {
+      variants += page.list.some(c => c.code === 355 &&
+        String(c.parameters?.[0] || '').includes('ENDING_STRESS_VARIANT')) ? 1 : 0;
+      page.list.forEach((c, i) => {
+        if (c.code === 249 && page.list[i + 1] && page.list[i + 1].code === 354) meCount++;
+      });
+    }
+  }
+  note('endings', variants > 0,
+    `${variants} ending paragraph varies with AxisStress >= 70`
+    + (audioSpec.endingMe ? ` · ending ME '${audioSpec.endingMe}' sits before ${meCount} return(s) to title` : ' · no ending ME available')
+    + ` (${inserted} inserted, ${meWired} wired this run)`);
 }
 
 /* ============================== REPORT ============================== */

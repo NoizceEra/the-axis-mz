@@ -40,6 +40,18 @@ const faceSheetExists = name =>
 
 const BAD_ARROW = /\u2192|\u2190/;
 
+// PNG size straight from the IHDR chunk: enough to check that a character sheet
+// is 3x4 cells of a whole number of tiles, without a dependency.
+function imageSize(file) {
+  try {
+    const b = fs.readFileSync(file);
+    if (b.length < 24 || b.readUInt32BE(0) !== 0x89504e47) return null;
+    return [b.readUInt32BE(16), b.readUInt32BE(20)];
+  } catch {
+    return null;
+  }
+}
+
 function checkList(list, where) {
   // ---- structure: conditionals and choices must nest correctly ----
   const stack = [];
@@ -264,15 +276,24 @@ const ts = tilesets[1];
 if (!ts) err('Tilesets', 'no tileset id 1');
 else {
   if (ts.flags.length !== 8192) err('Tilesets', `flags length ${ts.flags.length} != 8192`);
-  const sheet = ts.tilesetNames[5];
-  if (sheet && !fs.existsSync(path.join(ROOT, 'img', 'tilesets', sheet + '.png'))) {
-    err('Tilesets', `tileset sheet '${sheet}.png' missing`);
+  // every B..E slot that is named must exist on disk — a named-but-missing sheet
+  // draws nothing, and a missing A-sheet draws the black backdrop (whole 48px
+  // columns of #000000 through the map), which is easy to mistake for a bug in
+  // the map data rather than in the tileset.
+  for (let slot = 0; slot < ts.tilesetNames.length; slot++) {
+    const sheet = ts.tilesetNames[slot];
+    if (!sheet) continue;
+    if (!fs.existsSync(path.join(ROOT, 'img', 'tilesets', sheet + '.png'))) {
+      err('Tilesets', `sheet slot ${slot} names '${sheet}.png' but the file is missing`);
+    }
   }
-  // MZ flags are bitfields: bits 0-3 = impassable per direction, 0x40 counter,
-  // 0x80 damage floor, 0x800 star (drawn above characters), high bits = terrain.
+  if (!ts.tilesetNames[0]) err('Tilesets', 'A1 sheet unnamed — animated water renders as black holes');
+  // MZ flags are bitfields: bits 0-3 = impassable per direction, 0x10 star
+  // (drawn above characters), 0x20 ladder, 0x40 bush, 0x80 counter, 0x100
+  // damage floor, 0x600+ terrain tag.
   // RTP data is full of composites (0xE0F), so never compare for equality.
   if (!ts.flags.some(f => (f & 0x0f) === 0x0f)) err('Tilesets', 'no impassable flags — every tile would be walkable');
-  if (!ts.flags.some(f => (f & 0x800) !== 0)) warn('Tilesets', 'no star/overpass tiles — nothing draws above the player');
+  if (!ts.flags.some(f => (f & 0x10) !== 0)) warn('Tilesets', 'no star/overpass tiles — nothing draws above the player');
 }
 
 if (!system.startMapId || !maps.has(system.startMapId)) err('System', `startMapId ${system.startMapId} does not exist`);
@@ -280,6 +301,47 @@ if (!fs.existsSync(path.join(ROOT, 'img', 'titles1', system.title1Name + '.png')
   err('System', `title image '${system.title1Name}' missing`);
 }
 if (!audioExists('bgm', system.titleBgm.name)) err('System', `title bgm '${system.titleBgm.name}' missing`);
+
+/* --------------------------------------------------- the vista buildings ---- */
+
+// MZ indexes $dataMap.events BY EVENT ID: Game_Event.initialize does
+// this.locate(this.event().x, ...) and this.event() is $dataMap.events[this._eventId].
+// So the array must be dense, events[0] must be null, and events[i].id === i.
+// Remove an event without leaving the hole and Game_Map.setupEvents throws
+// "Cannot read properties of undefined (reading 'x')" the moment the map loads.
+for (const [id, map] of maps) {
+  const where = `map ${id} (${map.displayName})`;
+  if (map.events[0] !== null) err(where, 'events[0] must be null');
+  for (let i = 1; i < map.events.length; i++) {
+    const e = map.events[i];
+    if (!e) continue;
+    if (e.id !== i) err(where, `events[${i}].id is ${e.id} — id and array index must match`);
+  }
+}
+
+// big-building events: the sheet must be a `!$name` single-character sheet whose
+// cell is a whole number of 48px tiles, and the tile they stand on must be solid
+// (the body gets its collision from the invisible z1 mask, not from the event)
+const TILE = 48;
+for (const [id, map] of maps) {
+  const where = `map ${id} (${map.displayName})`;
+  for (const e of map.events) {
+    if (!e || !e.name.startsWith('bldg_')) continue;
+    const page = e.pages[0];
+    const sheet = page?.image?.characterName || '';
+    if (!sheet) { err(where, `event ${e.id} '${e.name}' has no building image`); continue; }
+    if (!/^!\$/.test(sheet)) err(where, `event ${e.id} '${e.name}' sheet '${sheet}' must start with !$`);
+    if (page.priorityType !== 1) err(where, `event ${e.id} '${e.name}' is priority ${page.priorityType}; the OK button only reaches priority 1`);
+    const file = path.join(ROOT, 'img', 'characters', sheet + '.png');
+    if (!fs.existsSync(file)) { err(where, `event ${e.id} '${e.name}' sheet '${sheet}.png' missing`); continue; }
+    const dims = imageSize(file);
+    if (!dims) { warn(where, `event ${e.id} '${e.name}' sheet size unreadable`); continue; }
+    const cellW = dims[0] / 3, cellH = dims[1] / 4;
+    if (cellW % TILE || cellH % TILE) {
+      err(where, `event ${e.id} '${e.name}' cell ${cellW}x${cellH} is not a multiple of ${TILE}`);
+    }
+  }
+}
 
 /* --------------------------------------------------------------- report ---- */
 

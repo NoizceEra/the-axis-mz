@@ -1232,8 +1232,8 @@
 							"code": 101,
 							"indent": 0,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1330,8 +1330,8 @@
 							"code": 101,
 							"indent": 4,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1647,8 +1647,8 @@
 							"code": 101,
 							"indent": 4,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1675,8 +1675,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1703,8 +1703,8 @@
 							"code": 101,
 							"indent": 2,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -1743,8 +1743,8 @@
 							"code": 101,
 							"indent": 2,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2007,8 +2007,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2025,8 +2025,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2224,8 +2224,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2242,8 +2242,8 @@
 							"code": 101,
 							"indent": 3,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"
@@ -2278,8 +2278,8 @@
 							"code": 101,
 							"indent": 1,
 							"parameters": [
-								"Nature",
-								0,
+								"axis_faces",
+								2,
 								0,
 								2,
 								"Root-Tender"

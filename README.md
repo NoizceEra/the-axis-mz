@@ -15,7 +15,11 @@ js/                   the untouched MZ runtime + js/plugins/AxisExt.js
 img/                  tileset, character sheets, 2 face sheets, pictures, title
 audio/                bgm + bgs + me + se (RTP), all wired per map
 tools/mz/build.mjs    translates the web build's content into native MZ JSON
+tools/mz/tileset.mjs  restores the RTP sheet names + flags build.mjs does not emit
 tools/mz/deepen.mjs   the game-design pass: faces, audio, stress, combat, repairs
+tools/mz/vista.mjs    the village layout pass: real buildings + invisible collision
+tools/mz/buildings.py renders the building sprites (see "The village vista pass")
+tools/mz/tileset-rtp.json  the RTP tileset contract (names + 8192 passage flags)
 tools/mz/validate.mjs structural validator (branch nesting, ids, assets, reachability)
 tools/mz/playtest-lib.js + playtest.js   in-engine verification drivers
 ```
@@ -104,30 +108,95 @@ Four script calls exist, in `js/plugins/AxisExt.js` (~230 lines):
 The endings, transfers, gates, puzzles, dialogue and the Axis-stress logic are
 all ordinary events.
 
+## The village vista pass
+
+The first build put Ashhollow's houses on the map as 4×3 blocks of one brick tile:
+no roof pitch, no door, no windows, and six buildings all the same. `vista.mjs`
+replaces them with real sprites, and the interesting part is that MZ needed
+nothing new to do it.
+
+**The art.** `tools/mz/buildings.py` drives
+[`parametric-topdown`](../../parametric-topdown) — 10 architectural styles × 46
+building types rendered from a CLI — and then knocks the output into shape:
+`--no-aa` for hard pixel edges, crop to the opaque bbox, **quantise to a locked
+33-colour palette**, crop again to the tiles the sprite actually covers, and
+compose a `!$axis_bldg_<name>.png` sheet of 3×4 cells. Cell sizes are exact
+multiples of MZ's 48px grid (home 5×5, elder 6×5, shop 5×5, forge 4×4, granary
+4×4 — plus shrine 8×6 and a ruin 4×3 for later maps).
+
+The palette is the point. It merges two families on purpose: the RTP greens and
+browns that are actually on Ashhollow's ground layer, and THE AXIS' own
+moss/ochre/rust. Rendered at 1,441–12,539 distinct colours, quantised to 12–19.
+One palette across tiles and buildings is what stops asset soup.
+
+**The mechanics**, each checked against the shipped runtime rather than assumed:
+
+| what | how | why it is not obvious |
+|---|---|---|
+| one big sprite per building | `!$name.png` on a single event | `ImageManager.isBigCharacter()` keys on `$`; `!` drops the +6px foot offset; `Sprite_Character` anchors (0.5, 1), so the image grows up and out from the event's tile |
+| the body is solid | invisible impassable tile on layer z1, id 512 | an event blocks exactly ONE tile — `isCollidedWithCharacters()` only tests `pos(x,y) && !isThrough()`. `layeredTiles()` walks z3→z0, so a blocked z1 tile beats the grass underneath |
+| the door answers | the interaction lives ON the building page | you press OK at the tile you *face*. A separate door event on the front tile shadows the building and the wall never responds |
+| the plots exist | the decorative lanes go back to grass, one spur per door | the old map had a road every third row, leaving 2-tile bands — no plot could ever hold a building |
+
 ## Regenerating the data
 
-`data/*.json` is generated, not hand-edited:
-
 ```bash
-node tools/mz/build.mjs
+npm run art      # the building sprites  (needs python + Pillow, and parametric-topdown beside this repo)
+npm run build    # tileset -> deepen -> vista
+npm run check    # the same, then the validator
 ```
 
-It reads `../the-axis/js/data.js` (the story, maps, switches, every script) and
-emits the MZ files. Edit the web build's data, re-run, and the MZ project follows.
-The art is generated the same way — `tools/art-export/index.html` renders the
-procedural tiles/sprites from `../the-axis/js/art.js` straight into MZ's sheet
-formats (16×16 art scaled 3× into 48×48 tiles, 3×4 character sheets, 240×144
-pictures at 3×).
+`data/*.json` is generated, not hand-edited. **`npm run regen` also runs
+`build.mjs` first, and that will undo two things only a human did**: it re-emits
+a tileset whose A-sheets are unnamed (every animated-water tile then renders as a
+48px black hole) and it repaints the ground with procedural ids instead of the
+RTP ones the maps ship with. `tileset.mjs` repairs the first from
+`tileset-rtp.json`; the second has no automatic repair, which is why `build` does
+not call `build.mjs` and `regen` is the explicit opt-in.
+
+build → tileset → deepen → vista is **idempotent**: run it three times and the
+project stays at 82 events · 127 pages · 1,144 commands with 0 errors. Getting
+there meant two fixes — the ending pass was appending 5 commands to the Last
+Door's page on every run (its "already applied" guard looked at the wrong
+offset), and `deepen` reported *this run's delta* rather than the project's
+state, so a no-op run printed FAIL and, because npm chains with `&&`, silently
+stopped the pipeline before vista ever ran.
 
 ## Verification (what was actually run)
 
 Two layers, both against the real MZ 1.9.0 runtime in a headless browser:
 
-**`node tools/mz/validate.mjs`** — 14 maps · 79 events · 124 pages · **1,155
+**`node tools/mz/validate.mjs`** — 14 maps · 82 events · 127 pages · **1,144
 commands · 0 errors · 0 warnings**. It checks branch nesting (111/411/412 and
 102/402/404 balance), text boxes with no lines, switch/variable/troop/item ids,
 transfer targets inside the target map, every referenced picture/face/audio file
-on disk, tileset flag sanity, and the two event-page reachability rules above.
+on disk, tileset flag sanity, the two event-page reachability rules above, and —
+added with the vista pass — two invariants whose violation is a hard crash rather
+than a visual glitch:
+
+- **`$dataMap.events` must stay indexed by id** (null at 0, `events[i].id === i`).
+  `Game_Event.initialize` does `this.locate(this.event().x, …)` and
+  `this.event()` is `$dataMap.events[this._eventId]`, so deleting an event and
+  letting the array shift makes the whole map throw
+  `Cannot read properties of undefined (reading 'x')` at `Game_Map.setupEvents`.
+  Deliberately de-indexing one map makes the validator emit 17 errors.
+- **Every `bldg_*` event** must use a `!$` sheet, sit at priority 1 (or the OK
+  button can never reach it), and have a cell that is a whole number of 48px tiles.
+
+The village, verified through real input in the headless engine:
+
+- all five door front tiles are walkable in all four directions (the granary's had
+  a decor tile on it — decor sits above the ground layer, so painting a path
+  underneath changed nothing);
+- every tile of every building body is solid: walking north from (15,7) stops at
+  (15,5) instead of walking onto the roof;
+- the elder's door answers with the line that used to belong to the separate
+  `marahouse` event — it was adopted into the building page, not duplicated;
+- the forge and granary answer with new lines; the home door still transfers
+  walk-on to map 1;
+- no console errors, no black holes. (The black holes were a real bug for a while:
+  `build.mjs` emits a tileset with unnamed A-sheets, so every animated-water tile
+  drew the backdrop as a solid 48px square.)
 
 **In-engine playtest** (`tools/mz/playtest-lib.js` + driven stages) — the runs
 that passed, all through real input and MZ's own update loop:
@@ -165,9 +234,11 @@ end to end and the defeat path verified by its flags rather than pretence.
   ported as pixel work — that was per-pixel rendering in the web build. In MZ the
   meter, the `AxisHighStress` switch, the darker tint in the deep maps and the
   ending paragraph carry it instead.
-- **Art is 3× upscaled 16×16** for the tiles and characters. MZ's grid is locked
-  to 48×48; redrawing at native 48×48 is the upgrade path. Faces and pictures are
-  generated at MZ's native sizes (144×144 cells, 816×624 pictures).
+- **Art**: the RTP tiles are RTP, the characters are the procedural 16×16 art
+  upscaled 3× into 48×48, and the buildings in Ashhollow are **native 48px-grid
+  parametric sprites** (see the vista pass). So the village is the part of the
+  game whose art is native MZ resolution; the other maps still ride on upscaled
+  tiles, and the cast is upscaled throughout — that is the remaining upgrade path.
 - **Audio is RTP** — real .ogg tracks chosen per map, not a bespoke score. It is
   sparse and restrained by track choice, not by composition.
 - Save/load, menus, and the message system are MZ's own (better than the web
